@@ -108,3 +108,7 @@ INSTALLED_APPS = (
 
 SESSION_SAVE_EVERY_REQUEST = True
 
+TEST_RUNNER = 'xmlrunner.extra.djangotestrunner.run_tests'
+TEST_OUTPUT_VERBOSE = True
+TEST_OUTPUT_DESCRIPTIONS = True
+TEST_OUTPUT_DIR = 'testoutput'
