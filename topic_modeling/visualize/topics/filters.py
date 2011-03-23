@@ -269,6 +269,7 @@ class TopicFilterByDocument(object):
         self.id = id
         self.current_document_id = None
         self.remake_form()
+        self._form = None
 
     def apply(self, topic_set):
         if not self.current_document_id:
