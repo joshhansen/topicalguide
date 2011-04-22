@@ -343,7 +343,7 @@ class TopicMetricChart(object):
                     metric=self.second_metric).value)
         pylab.scatter(x, y, label='Topics')
         if self.linear_fit:
-            slope, intercept, r, p, s_err = stats.linregress(x, y)
+            slope, intercept, r, _p, _s_err = stats.linregress(x, y)
             line_x = [min(x), max(x)]
             line_y = [slope * point + intercept for point in line_x]
             pylab.plot(line_x, line_y, label='Linear fit, R: %.3f' % r)
@@ -393,8 +393,6 @@ class NumericalAttributesDistributionChart(Chart):
                 chart_parameters)
 
         self.dataset = Dataset.objects.get(name=chart_parameters['dataset'])
-        analysis = Analysis.objects.get(dataset=self.dataset,
-                                        name=chart_parameters['analysis'])
         if chart_parameters['attribute']:
             attribute_ids = chart_parameters['attribute'].split('_')
             self.attributes = Attribute.objects.filter(id__in=attribute_ids)
@@ -430,15 +428,15 @@ class NumericalAttributesDistributionChart(Chart):
             # Until we have numerical attributes implemented, here's a hack
             # TODO(dan): fix this!
             try:
-              for value in Value.objects.filter(attribute=attribute):
-                  float_value = float(value.value)
-                  if float_value > self.maxval:
-                      self.maxval = float_value
-                  if float_value < self.minval:
-                      self.minval = float_value
-                  chartdata[attribute.name].append(float_value)
+                for value in Value.objects.filter(attribute=attribute):
+                    float_value = float(value.value)
+                    if float_value > self.maxval:
+                        self.maxval = float_value
+                    if float_value < self.minval:
+                        self.minval = float_value
+                    chartdata[attribute.name].append(float_value)
             except:
-              print('Warning: could not parse attribute {0} values'
+                print('Warning: could not parse attribute {0} values'
                       ' as numbers.'.format(attribute.name))
         return chartdata
 

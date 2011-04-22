@@ -41,19 +41,18 @@ from topic_modeling.visualize.topics.common import get_topic_name
 from topic_modeling.visualize.topics.filters import clean_topics_from_session
 from topic_modeling.visualize.topics.filters import get_topic_filter_by_name
 from topic_modeling.visualize.topics.filters import possible_topic_filters
-import sys
 from django.db import transaction
 
 # General and Sidebar stuff
 ###########################
 
-def rename_topic(request, dataset, analysis, topic, name):
+def rename_topic(_request, _dataset, _analysis, _topic, _name):
     raise NotImplementedError('This is currently broken')
-    topic = Topic.objects.get(analysis__dataset__name=dataset,
-            analysis__name=analysis, number=topic)
-    topic.name = name
-    topic.save()
-    return HttpResponse(topic.name)
+#    topic = Topic.objects.get(analysis__dataset__name=dataset,
+#            analysis__name=analysis, number=topic)
+#    topic.name = name
+#    topic.save()
+#    return HttpResponse(topic.name)
 
 
 def topic_ordering(request, dataset, analysis, order_by):
