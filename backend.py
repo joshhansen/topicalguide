@@ -78,10 +78,10 @@ if __name__ == "__main__":
     sys.path.append("tools/doit")
     from doit.doit_cmd import cmd_main
     path = os.path.abspath(sys.argv[0])
-    
+
     #The database file where we'll store info about this build
     db_name = ".dbs/{0}.db".format(build.replace('/','_'))
-    
+
     args = ['-f', path] + ['--db', db_name] + sys.argv[1:]
     sys.exit(cmd_main(args))
 
@@ -143,7 +143,6 @@ if 'markup_dir' not in locals():
     markup_dir = "{0}/{1}-markup".format(dataset_dir, analysis_name)
 
 # Metrics
-# TODO(matt): can we make this dynamic?
 # See the documentation or look in metric_scripts for a complete list of
 # available metrics
 if 'topic_metrics' not in locals():
@@ -155,12 +154,21 @@ if 'topic_metric_args' in locals():
     topic_metric_args = tmp_topic_metric_args
 else:
     topic_metric_args = defaultdict(dict)
+if 'pairwise_topic_metrics' not in locals():
+    pairwise_topic_metrics = ["document correlation", "word correlation"]
+if 'pairwise_topic_metric_args' in locals():
+    tmp_pairwise_topic_metric_args = defaultdict(dict)
+    tmp_pairwise_topic_metric_args.update(pairwise_topic_metric_args)
+    pairwise_topic_metric_args = tmp_pairwise_topic_metric_args
+else:
+    pairwise_topic_metric_args = defaultdict(dict)
 if 'cooccurrence_counts' in locals():
     topic_metrics.append('coherence')
     topic_metric_args['coherence'].update(
             {'counts': cooccurrence_counts})
-if 'pairwise_topic_metrics' not in locals():
-    pairwise_topic_metrics = ["document correlation", "word correlation"]
+    pairwise_topic_metrics.append('pairwise coherence')
+    pairwise_topic_metric_args['pairwise coherence'].update(
+            {'counts': cooccurrence_counts})
 if 'document_metrics' not in locals():
     document_metrics = ['token count', 'type count', 'topic entropy']
 if 'pairwise_document_metrics' not in locals():
@@ -218,7 +226,7 @@ if not 'task_attributes' in locals() and not ('suppress_default_attributes_task'
         for filename in os.listdir(files_dir):
             attrs.write('{"attributes": {}, "path": "' + filename + '"}')
         attrs.write(']')
-    
+
     def task_attributes():
         task = dict()
         task['targets'] = [attributes_file]
@@ -400,12 +408,16 @@ if 'task_pairwise_topic_metrics' not in locals():
         def metric_in_database(metric):
             try:
                 dataset = Dataset.objects.get(name=dataset_name)
-                analysis = Analysis.objects.get(dataset=dataset, name=analysis_name)
-                names = pairwise_metrics[metric].metric_names_generated(dataset_name, analysis_name)
+                analysis = Analysis.objects.get(dataset=dataset,
+                        name=analysis_name)
+                names = pairwise_metrics[metric].metric_names_generated(
+                        dataset_name, analysis_name)
                 for name in names:
-                    PairwiseTopicMetric.objects.get(analysis=analysis, name=name)
+                    PairwiseTopicMetric.objects.get(analysis=analysis,
+                            name=name)
                 return True
-            except (Dataset.DoesNotExist, Analysis.DoesNotExist, PairwiseTopicMetric.DoesNotExist):
+            except (Dataset.DoesNotExist, Analysis.DoesNotExist,
+                    PairwiseTopicMetric.DoesNotExist):
                 return False
 
         def import_metric(metric):
@@ -428,12 +440,15 @@ if 'task_pairwise_topic_metrics' not in locals():
             print "Removing pairwise topic metric: " + metric
             dataset = Dataset.objects.get(name=dataset_name)
             analysis = Analysis.objects.get(dataset=dataset, name=analysis_name)
-            names = pairwise_metrics[metric].metric_names_generated(dataset_name, analysis_name)
+            names = pairwise_metrics[metric].metric_names_generated(
+                    dataset_name, analysis_name)
             for metric_name in names:
-                PairwiseTopicMetric.objects.get(analysis=analysis, name=metric_name).delete()
+                PairwiseTopicMetric.objects.get(analysis=analysis,
+                        name=metric_name).delete()
 
-        print "Available pairwise topic metrics: " + u', '.join(pairwise_metrics)
-        for pairwise_topic_metric in pairwise_metrics:
+        print "Available pairwise topic metrics: " + u', '.join(
+                pairwise_topic_metrics)
+        for pairwise_topic_metric in pairwise_topic_metrics:
             task = dict()
             task['name'] = pairwise_topic_metric.replace(' ', '_')
             task['actions'] = [(import_metric, [pairwise_topic_metric])]
