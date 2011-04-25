@@ -24,6 +24,7 @@ import os
 import codecs
 from sys import argv
 
+newline_chars = [u'\u000A',u'\u000B',u'\u000C',u'\u000D',u'\u0085',u'\u2028',u'\u2029']
 def make_token_file(docs_dir, output_file):
     w = codecs.open(output_file, 'w', 'utf-8')
     
@@ -36,9 +37,15 @@ def make_token_file(docs_dir, output_file):
                 mallet_path = '{0}/{1}'.format(partial_root, f)
             else:
                 mallet_path = f
-            text = open(path).read().decode('utf-8').strip().replace('\n',' ').replace('\r',' ')
+            text = open(path).read().decode('utf-8').strip()
+            text = remove_newlines(text)
             w.write(u'{0} all {1}'.format(mallet_path, text))
             w.write(u'\n')
+
+def remove_newlines(s):
+    for newline_char in newline_chars:
+        s = s.replace(newline_char, ' ')
+    return s
 
 if __name__ == '__main__':
     make_token_file(argv[1], argv[2])
