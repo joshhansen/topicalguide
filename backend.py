@@ -69,9 +69,10 @@ from topic_modeling.visualize.models import TopicNameScheme
 # cleaned up when we have time.
 
 #build = "twitter"
-build = "state_of_the_union"
+#build = "state_of_the_union"
 #build = "kcna/kcna"
 #build = "congressional_record"
+build = "youtube:quit_smoking3"
 
 if __name__ == "__main__":
     if not os.path.exists(".dbs"): os.mkdir(".dbs")
