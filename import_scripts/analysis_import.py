@@ -63,9 +63,9 @@ NUM_DOTS = 100
 #def main(options):
 def main(dataset_name, dataset_attr_file, analysis_name, analysis_description,
         state_file, tokenized_file, files_dir, token_regex):
-    print >> sys.stderr, "analysis_import({0}, {1}, {2}, {3}, {4}, {5}, {6})".\
+    print >> sys.stderr, "analysis_import({0}, {1}, {2}, {3}, {4}, {5}, {6}, {7})".\
             format(dataset_name, dataset_attr_file, analysis_name,
-            analysis_description, state_file, tokenized_file, files_dir)
+            analysis_description, state_file, tokenized_file, files_dir, token_regex)
     start_time = datetime.now()
     print >> sys.stderr, 'Starting time:', start_time
     # These are some attempts to make the database access a little faster
@@ -324,7 +324,7 @@ def parse_attributes(attribute_file):
     return doc_index, attr_index, value_index, attribute_table
 
 
-@transaction.commit_manually
+#@transaction.commit_manually
 def parse_mallet_file(state_file, attribute_table, tokenized_file, files_dir, token_regex):
     """ Parses the state output file from mallet
 
@@ -354,6 +354,7 @@ def parse_mallet_file(state_file, attribute_table, tokenized_file, files_dir, to
     f = codecs.open(state_file, 'r', 'utf-8')
     count = 0
     for line in f:
+        print line.encode('utf-8')
         count += 1
         if count % 100000 == 0:
             print >> sys.stderr, count

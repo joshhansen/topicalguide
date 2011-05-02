@@ -113,8 +113,12 @@ if 'dataset_dir' not in locals():
     dataset_dir = "{0}/{1}".format(datasets_dir, dataset_name)
 if 'files_dir' not in locals():
     files_dir = dataset_dir + "/files"
-if 'token_regex' not in locals():
-    token_regex = r'[A-Za-z]+'
+
+default_token_regex = r'[A-Za-z]+'
+if 'python_token_regex' not in locals():
+    python_token_regex = default_token_regex
+if 'java_token_regex' not in locals():
+    java_token_regex = default_token_regex
 
 # Mallet
 if 'mallet' not in locals():
@@ -251,8 +255,8 @@ if 'task_mallet_imported_data' not in locals():
         task = dict()
         task['targets'] = [mallet_imported_data]
         cmd = '{0} import-file --input {1} --output {2} --keep-sequence --set-source-by-name --remove-stopwords'.format(mallet, mallet_input, mallet_imported_data)
-        if token_regex is not None:
-            cmd += " --token-regex " + token_regex
+        if java_token_regex is not None:
+            cmd += " --token-regex " + java_token_regex
         task['actions'] = [cmd]
         task['file_dep'] = [mallet_input]
         task['clean'] = ["rm -f " + mallet_imported_data]
@@ -312,7 +316,7 @@ if 'task_analysis_import' not in locals():
             except (Dataset.DoesNotExist, Analysis.DoesNotExist):
                 return False
         task = dict()
-        task['actions'] = [(import_scripts.analysis_import.main, [dataset_name, attributes_file, analysis_name, analysis_description, mallet_output, mallet_input, files_dir, token_regex])]
+        task['actions'] = [(import_scripts.analysis_import.main, [dataset_name, attributes_file, analysis_name, analysis_description, mallet_output, mallet_input, files_dir, python_token_regex])]
         task['file_dep'] = [mallet_output, mallet_input, attributes_file]
         task['clean'] = [
             (remove_analysis, [dataset_name, analysis_name]),
