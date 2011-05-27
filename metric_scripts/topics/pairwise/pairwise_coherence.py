@@ -110,7 +110,7 @@ def metric_names_generated(dataset, analysis):
 
 
 def topic_words(topic, num_words):
-    return list([tw.word.type for tw in
+    return list([tw.type.type for tw in
         topic.topicword_set.order_by('-count')[:10]])
 
 

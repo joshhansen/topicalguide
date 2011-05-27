@@ -83,7 +83,6 @@ urlpatterns = patterns('',
         'topic_modeling.visualize.attribute_views.document_index'),
 
 # Word Views
-    # This view does not exist at the moment, but would be nice to have
     (r'^' + dataset + '/' + analysis + '/' + word + '$',
         'topic_modeling.visualize.word_views.index'),
 

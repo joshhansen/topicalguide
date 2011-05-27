@@ -79,7 +79,7 @@ class TopNTopicNamer:
 #        print rankings
         i = 0
         while i < self.n:
-            name += rankings[i].word.type
+            name += rankings[i].type.type
             if i < self.n-1: name += u' '
             i += 1
         return name

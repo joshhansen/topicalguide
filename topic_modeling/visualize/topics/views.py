@@ -153,7 +153,7 @@ def word_index(request, dataset, analysis, topic, word):
 
     word = Word.objects.get(dataset=dataset, type=word)
     context['curword'] = word
-    documents = word.documenttopicword_set.filter(topic=topic).order_by(
+    documents = type.documenttopicword_set.filter(topic=topic).order_by(
             'document__filename')
     docs = []
     for dtw in documents:
@@ -166,14 +166,14 @@ def word_index(request, dataset, analysis, topic, word):
         w.doc_name = d.filename
         w.doc_id = d.id
     context['documents'] = docs
-    context['breadcrumb'].word(word)
+    context['breadcrumb'].type(word)
     context['topic_post_link'] = '/words/%s' % word.type
 
     add_word_charts(dataset, analysis, context)
 
     topicword = topic.topicword_set.get(word=word,word__ngram=False)
     word_url = '%s/%d/words/' % (context['topics_url'], topic.number)
-    add_word_contexts(topicword.word.type, word_url, context)
+    add_word_contexts(topicword.type.type, word_url, context)
 
     return render_to_response('topic_word.html', context)
 
@@ -238,8 +238,8 @@ def top_words_widgets(topic, context):
     words = []
     for topicword in topicwords[:100]:
         percent = float(topicword.count) / topic.total_count
-        w = WordSummary(topicword.word.type, percent)
-        w.url = word_url + topicword.word.type
+        w = WordSummary(topicword.type.type, percent)
+        w.url = word_url + topicword.type.type
         words.append(w)
 
     top_level_widget.add(Widget('Word Cloud',html=unigram_cloud(words)))
@@ -276,8 +276,8 @@ def ngram_cloud(topic, context):
     ngrams = []
     for topicngram in topicngrams[:10]:
         percent = float(topicngram.count) / topic.total_count
-        w = WordSummary(topicngram.word.type, percent)
-        w.url = word_url + topicngram.word.type
+        w = WordSummary(topicngram.type.type, percent)
+        w.url = word_url + topicngram.type.type
         ngrams.append(w)
     if ngrams:
         # Name must not contain spaces!

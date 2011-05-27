@@ -37,10 +37,10 @@ suppress_default_attributes_task = True
 
 def task_attributes():
     task = dict()
-    task['targets'] = [attributes_file]
+    task['targets'] = [metadata_files['documents']]
     task['actions'] = [(generate_attributes_file,
-                [dataset_dir+'/'+chron_list_filename, attributes_file])]
-    task['clean'] = ['rm -f '+attributes_file]
+                [dataset_dir+'/'+chron_list_filename, metadata_files['documents']])]
+    task['clean'] = ['rm -f '+metadata_files['documents']]
     return task
 
 def task_extract_data():
