@@ -23,10 +23,10 @@
 # Provo, UT 84602, (801) 422-9339 or 422-3821, e-mail copyright@byu.edu.
 
 
+import copy
 import random
 
 from django.http import HttpResponse, HttpResponseRedirect
-from django.utils import simplejson
 from topic_modeling.visualize.charts import TopicAttributeChart
 from topic_modeling.visualize.charts import TopicMetricChart
 from topic_modeling.visualize.common import get_word_list
@@ -37,7 +37,8 @@ from topic_modeling.visualize.models import Analysis
 from topic_modeling.visualize.models import Attribute
 from topic_modeling.visualize.models import Topic
 from topic_modeling.visualize.models import Word
-import copy
+from topic_modeling import anyjson
+
 
 # General ajax calls
 ####################
@@ -64,7 +65,7 @@ def word_in_context(request, dataset, analysis, word, topic=None):
         set_word_context(word, d.document, analysis_num, topic.number)
     word.doc_name = d.document.filename
     word.doc_id = d.document.id
-    return HttpResponse(simplejson.dumps(vars(word)))
+    return HttpResponse(anyjson.dumps(vars(word)))
 
 
 # Plots tab ajax calls
@@ -79,7 +80,7 @@ def attribute_values(request, dataset, attribute):
     attribute = Attribute.objects.get(pk=attribute)
     values = [av.value for av in attribute.attributevalue_set.select_related().order_by('value__value')]
     #values = attribute.value_set.all()
-    return HttpResponse(simplejson.dumps([(v.id, v.value) for v in values]))
+    return HttpResponse(anyjson.dumps([(v.id, v.value) for v in values]))
 
 
 def topic_attribute_plot(request, attribute, topic, value):
@@ -123,7 +124,7 @@ def get_attribute_page(request, dataset, analysis, attribute, number):
     ret_val['values'] = [vars(AjaxValue(val.value)) for val in values]
     ret_val['num_pages'] = num_pages
     ret_val['page'] = page
-    return HttpResponse(simplejson.dumps(ret_val))
+    return HttpResponse(anyjson.dumps(ret_val))
 
 
 class AjaxValue(object):
@@ -152,7 +153,7 @@ def get_word_page(request, dataset, analysis, number):
     ret_val['words'] = [vars(AjaxWord(word.type)) for word in words]
     ret_val['num_pages'] = num_pages
     ret_val['page'] = page
-    return HttpResponse(simplejson.dumps(ret_val))
+    return HttpResponse(anyjson.dumps(ret_val))
 
 
 def update_word_page(request, dataset, analysis, word):
@@ -188,7 +189,7 @@ def get_favorite_page(request, number):
     ret_val['num_pages'] = 1
     ret_val['page'] = 1
 
-    return HttpResponse(simplejson.dumps(ret_val))
+    return HttpResponse(anyjson.dumps(ret_val))
 
 def add_favorite(request, tab):
     favorites = request.session.get('favorite-set', set())

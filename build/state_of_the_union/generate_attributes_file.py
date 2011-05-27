@@ -28,20 +28,16 @@ def generate_attributes_file(chron_list_file, output_file):
     meta = metadata(chron_list_file)
     w = open(output_file, 'w')
     
-    w.write('[\n')
+    w.write('{\n')
     for i,m in enumerate(meta):
-        #[(?P<title>(?P<president_name>.+)'s? .*State of the Union Address)\|(?P<address_number>\w+) State of the Union Address\]\] - \[\[author:(?P<author_name>.+)\|.+\]\], \((?P<day>\d+) (?P<month>\w+) \[\[w:(?P<year>\d+)\|(?P=year)\]\]\)"
-        w.write('\t{\n')
-        w.write('\t\t"attributes": {\n')
-        
+        w.write('\t"%s": {\n' % (filename(m)) )
         attr_entries = []
         for attr,val in m.groupdict().items():
-            attr_entries += ['\t\t\t"{0}": "{1}"'.format(attr,val)]
+            attr_entries += ['\t\t"{0}": "{1}"'.format(attr,val)]
         w.write(',\n'.join(attr_entries))
-        w.write('\n\t\t},\n')
-        w.write('\t\t"path": "{0}"\n'.format(filename(m)))
+        w.write('\n\t},\n')
         
-        w.write('\t}')
+        w.write('}')
         
         if i < len(meta)-1: w.write(',')
         

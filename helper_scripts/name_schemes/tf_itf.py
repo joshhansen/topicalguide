@@ -92,19 +92,19 @@ class TfitfTopicNamer:
         for topic_word in topic_words:
             topic = topic_word.topic
             tf_itf = self.tf_itf(topic_word,total_tokens_in_topic)
-            term_rankings[topic_word.word.type] = tf_itf
+            term_rankings[topic_word.type.type] = tf_itf
         
         return sorted(term_rankings.iteritems(),key=itemgetter(1),reverse=True)
     
     def tf_itf(self,topic_word,total_tokens_in_topic):
-        return self.term_frequency(topic_word.word,topic_word.topic,total_tokens_in_topic) * self.inverse_topic_frequency(topic_word.word)
+        return self.term_frequency(topic_word.type,topic_word.topic,total_tokens_in_topic) * self.inverse_topic_frequency(topic_word.type)
     
     def term_frequency(self,term,topic,total_tokens_in_topic):
-        term_count_in_topic = TopicWord.objects.filter(word=term,topic=topic).count()
+        term_count_in_topic = TopicWord.objects.filter(type=term,topic=topic).count()
         return term_count_in_topic / total_tokens_in_topic
         
     def inverse_topic_frequency(self,term):
-        topics_containing_term = TopicWord.objects.filter(word=term).count()
+        topics_containing_term = TopicWord.objects.filter(type=term).count()
         return math.log(self.total_number_of_topics / topics_containing_term)
 
 if __name__ == '__main__':

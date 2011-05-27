@@ -57,8 +57,8 @@ class Document(models.Model):
     dataset = models.ForeignKey(Dataset)
     word_count = models.IntegerField(default=0)
     words = models.ManyToManyField('Word', through='DocumentWord')
-    attributes = models.ManyToManyField('Attribute',
-            through='AttributeValueDocument')
+#    attributes = models.ManyToManyField('Attribute',
+#            through='AttributeValueDocument')
 
     def __unicode__(self):
         return unicode(self.filename)
@@ -185,33 +185,6 @@ class Document(models.Model):
     class Meta:
         ordering = ['dataset', 'filename']
 
-
-class Attribute(models.Model):
-    name = models.CharField(max_length=128, db_index=True)
-    dataset = models.ForeignKey(Dataset)
-    documents = models.ManyToManyField('Document',
-            through='AttributeValueDocument')
-    # or this?
-    # analysis = models.ForeignKey(Analysis)
-
-    def __unicode__(self):
-        return self.name
-
-    class Meta:
-        ordering = ['name']
-
-
-class Value(models.Model):
-    value = models.CharField(max_length=128, db_index=True)
-    attribute = models.ForeignKey(Attribute)
-
-    def __unicode__(self):
-        return self.value
-
-    class Meta:
-        ordering = ['value']
-
-
 class Word(models.Model):
     dataset = models.ForeignKey(Dataset)
     count = models.IntegerField(default=0)
@@ -223,39 +196,6 @@ class Word(models.Model):
 
     def __unicode__(self):
         return self.type
-
-
-# Links between the basic things in the database
-################################################
-
-class AttributeValueDocument(models.Model):
-    document = models.ForeignKey(Document)
-    attribute = models.ForeignKey(Attribute)
-    value = models.ForeignKey(Value)
-
-    def __unicode__(self):
-        return u'{a} is "{v}" for {d}'.format(a=self.attribute, v=self.value,
-                d=self.document)
-
-
-class AttributeValue(models.Model):
-    attribute = models.ForeignKey(Attribute)
-    value = models.ForeignKey(Value)
-    token_count = models.IntegerField(default=0)
-
-
-class AttributeValueWord(models.Model):
-    attribute = models.ForeignKey(Attribute)
-    word = models.ForeignKey(Word)
-    value = models.ForeignKey(Value)
-    count = models.IntegerField(default=0)
-
-
-class DocumentWord(models.Model):
-    document = models.ForeignKey(Document)
-    word = models.ForeignKey(Word)
-    count = models.IntegerField(default=0)
-
 
 ##############################################################################
 # Tables that hold information about particular analyses of the data
@@ -412,35 +352,34 @@ class WordMetricValue(MetricValue):
 
 
 
-# Links between the basic components of the analysis and with the raw data
-##########################################################################
-
-class TopicWord(models.Model):
-    topic = models.ForeignKey(Topic)
-    word = models.ForeignKey(Word)
-    count = models.IntegerField(default=0)
 
 
-class DocumentTopic(models.Model):
-    topic = models.ForeignKey(Topic)
-    document = models.ForeignKey(Document)
-    count = models.IntegerField(default=0)
+#--------------------------- Metadata -----------------------------
+class Attribute(models.Model):
+    name = models.CharField(max_length=128, db_index=True)
+    dataset = models.ForeignKey(Dataset)
+#    documents = models.ManyToManyField('Document',
+#            through='AttributeValueDocument')
+    # or this?
+    # analysis = models.ForeignKey(Analysis)
+
+    def __unicode__(self):
+        return self.name
+
+    class Meta:
+        ordering = ['name']
 
 
-class DocumentTopicWord(models.Model):
-    topic = models.ForeignKey(Topic)
-    word = models.ForeignKey(Word)
-    document = models.ForeignKey(Document)
-    count = models.IntegerField(default=0)
-
-
-class AttributeValueTopic(models.Model):
+class Value(models.Model):
+    value = models.CharField(max_length=128, db_index=True)
     attribute = models.ForeignKey(Attribute)
-    value = models.ForeignKey(Value)
-    topic = models.ForeignKey(Topic)
-    count = models.IntegerField(default=0)
 
-# Metadata
+    def __unicode__(self):
+        return self.value
+
+    class Meta:
+        ordering = ['value']
+
 class MetaInfo(models.Model):
     name = models.CharField(max_length=128, db_index=True)
     
@@ -527,5 +466,59 @@ class WordMetaInfo(MetaInfo):
 class WordMetaInfoValue(MetaInfoValue):
     info_type = models.ForeignKey(WordMetaInfo)
     word = models.ForeignKey(Word)
+
+#--------------------------- Counts -----------------------------
+class TopicWord(models.Model):
+    topic = models.ForeignKey(Topic)
+    word = models.ForeignKey(Word)
+    count = models.IntegerField(default=0)
+
+
+class DocumentTopic(models.Model):
+    topic = models.ForeignKey(Topic)
+    document = models.ForeignKey(Document)
+    count = models.IntegerField(default=0)
+
+
+class DocumentTopicWord(models.Model):
+    topic = models.ForeignKey(Topic)
+    word = models.ForeignKey(Word)
+    document = models.ForeignKey(Document)
+    count = models.IntegerField(default=0)
+
+
+class AttributeValueTopic(models.Model):
+    attribute = models.ForeignKey(Attribute)
+    value = models.ForeignKey(Value)
+    topic = models.ForeignKey(Topic)
+    count = models.IntegerField(default=0)
+
+#class AttributeValueDocument(models.Model):
+#    document = models.ForeignKey(Document)
+#    attribute = models.ForeignKey(Attribute)
+#    value = models.ForeignKey(Value)
+#
+#    def __unicode__(self):
+#        return u'{a} is "{v}" for {d}'.format(a=self.attribute, v=self.value,
+#                d=self.document)
+
+
+class AttributeValue(models.Model):
+    attribute = models.ForeignKey(Attribute)
+    value = models.ForeignKey(Value)
+    token_count = models.IntegerField(default=0)
+
+
+#class AttributeValueWord(models.Model):
+#    attribute = models.ForeignKey(Attribute)
+#    word = models.ForeignKey(Word)
+#    value = models.ForeignKey(Value)
+#    count = models.IntegerField(default=0)
+
+
+class DocumentWord(models.Model):
+    document = models.ForeignKey(Document)
+    word = models.ForeignKey(Word)
+    count = models.IntegerField(default=0)
 
 # vim: et sw=4 sts=4

@@ -104,7 +104,7 @@ class BreadCrumb(object):
 #        elif isinstance(obj, Topic):
 #            self.topic(obj)
         elif isinstance(obj, Word):
-            self.word(obj)
+            self.type(obj)
         elif isinstance(obj, Document):
             self.document(obj)
         elif isinstance(obj, Attribute):
@@ -139,7 +139,7 @@ class BreadCrumb(object):
         self._add_item(url, text, tooltip)
         return self
 
-    def word(self, word):
+    def type(self, word):
         url = '/words/' + word.type
         text = "Word '"+word.type+"'"
         tooltip = text + " (id={0})".format(word.id)
@@ -203,7 +203,7 @@ class BreadCrumbItem(object):
 
 class WordSummary(object):
     def __init__(self, word="", percent="", number=None):
-        self.word = word
+        self.type = word
         self.url = ""
         self.left_context = ""
         self.right_context = ""
@@ -263,7 +263,7 @@ class Cloud(object):
 ##########################
 
 def set_word_context(word, document, analysis, topic=None):
-    right, left = document.get_context_for_word(word.word, analysis, topic)
+    right, left = document.get_context_for_word(word.type, analysis, topic)
     word.left_context = left
     word.right_context = right
 
@@ -289,7 +289,7 @@ def get_word_cloud(words, open='', close='', url=True):
     scale = words[idx].percent
 
     def cmpWord(x, y):
-        return cmp(x.word.lower(), y.word.lower())
+        return cmp(x.type.lower(), y.type.lower())
 #        return cmp(str(x.word).lower(), str(y.word).lower())
     words = sorted(words, cmpWord)
 
@@ -298,7 +298,7 @@ def get_word_cloud(words, open='', close='', url=True):
         if url:
             cloud += '<a href="%s">' % word.url
         size = word.percent / scale * 100 + 50
-        text = open + word.word.lower() + close
+        text = open + type.type.lower() + close
         cloud += '<span style="font-size:%d%%">%s</span> ' % (size, text)
         if url:
             cloud += '</a>'

@@ -31,11 +31,11 @@ from topic_modeling.visualize.common import get_word_cloud
 from topic_modeling.visualize.common import paginate_list
 from topic_modeling.visualize.common import set_word_context
 from topic_modeling.visualize.common import WordSummary
-from topic_modeling.visualize.models import Analysis
-from topic_modeling.visualize.models import Attribute
+from topic_modeling.visualize.models import Analysis, DocumentMetaInfo
+#from topic_modeling.visualize.models import Attribute
 from topic_modeling.visualize.models import Dataset
 from topic_modeling.visualize.models import Document
-from topic_modeling.visualize.models import Value
+#from topic_modeling.visualize.models import Value
 from topic_modeling.visualize.models import Word
 
 def base_page_vars(request, dataset, analysis, attribute, value):
@@ -45,10 +45,13 @@ def base_page_vars(request, dataset, analysis, attribute, value):
 
     dataset = Dataset.objects.get(name=dataset)
     analysis = Analysis.objects.get(name=analysis, dataset=dataset)
-    page_vars['attributes'] = dataset.attribute_set.all()
+    
+    attrs = DocumentMetaInfo.objects.filter(documentmetainfovalue__document__dataset=dataset).distinct()
+    
+#    attrs = dataset.attribute_set
+    page_vars['attributes'] = attrs.all()
     if attribute:
-        attribute = get_object_or_404(Attribute, dataset=dataset,
-                name=attribute)
+        attribute = get_object_or_404(attrs, name=attribute)
         prev_attribute = request.session.get('attribute-name', '')
         if prev_attribute != attribute.name:
             request.session['attribute-name'] = attribute.name
@@ -59,7 +62,7 @@ def base_page_vars(request, dataset, analysis, attribute, value):
 
     page_vars['attribute'] = attribute
 
-    values = attribute.value_set.all()
+    values = attribute.documentmetainfovalue_set.all()
     page_num = request.session.get('attribute-page', 1)
     num_per_page = request.session.get('attributes-per-page', 20)
     values, num_pages, _ = paginate_list(values, page_num, num_per_page)
@@ -68,7 +71,7 @@ def base_page_vars(request, dataset, analysis, attribute, value):
     page_vars['values'] = [v.value for v in values]
 
     if value:
-        curvalue = get_object_or_404(Value, attribute=attribute, value=value)
+        curvalue = get_object_or_404(values, attribute=attribute, value=value)
     else:
         curvalue = values[0]
 
@@ -90,7 +93,7 @@ def index(request, dataset, analysis, attribute, value=''):
             value=value).order_by('-count')
     attrvalwords = attrvalwords.filter(word__ngram=False)
     for attrvalword in attrvalwords[:100]:
-        type = attrvalword.word.type
+        type = attrvalword.type.type
         percent = float(attrvalword.count) / tokens
         w = WordSummary(type, percent)
         w.url = (page_vars['attributes_url']+'/'+attribute.name+'/values/'+
@@ -101,7 +104,7 @@ def index(request, dataset, analysis, attribute, value=''):
     attrvalngrams = attrvalngrams.filter(word__ngram=True)
     ngrams = []
     for attrvalngram in attrvalngrams[:10]:
-        type = attrvalngram.word.type
+        type = attrvalngram.type.type
         percent = float(attrvalngram.count) / tokens
         w = WordSummary(type, percent)
         w.url = (page_vars['attributes_url']+'/'+attribute.name+'/values/'+
@@ -143,7 +146,7 @@ def word_index(request, dataset, analysis, attribute, value, word):
     word = Word.objects.get(dataset__name=dataset, type=word)
     analysis = Analysis.objects.get(dataset__name=dataset, name=analysis)
 
-    documents = word.document_set.filter(attribute=attribute,
+    documents = type.document_set.filter(attribute=attribute,
             attributevaluedocument__value=value)
     words = []
     for document in documents:
@@ -159,7 +162,7 @@ def word_index(request, dataset, analysis, attribute, value, word):
         w.doc_id = document.id
 
     page_vars['words'] = words
-    page_vars['breadcrumb'].word(word)
+    page_vars['breadcrumb'].type(word)
     page_vars['attribute_post_link'] = '/words/%s' % word.type
 
     return render_to_response('attribute_word.html', page_vars)

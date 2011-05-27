@@ -65,7 +65,7 @@ def add_metric(dataset, analysis, force_import=False, *args, **kwargs):
                 word__ngram=False).order_by('-count')
         # We just grab the first ten words - there's probably a better way to
         # do this
-        words = [tw.word.type for tw in topicwords[:10]]
+        words = [tw.type.type for tw in topicwords[:10]]
         total_pmi = 0
         for w1 in words:
             for w2 in words:

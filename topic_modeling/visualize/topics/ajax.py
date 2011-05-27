@@ -267,11 +267,11 @@ def reaggregate_words(topic_group):
     words = {}
     for topic in topic_group.subtopics:
         for topic_word in topic.topicword_set.all():
-            words[topic_word.word] = words.get(topic_word.word, 0) + topic_word.count
+            words[topic_word.type] = words.get(topic_word.type, 0) + topic_word.count
             topic_group.total_count += topic_word.count
 
     for word, count in words.iteritems():
-        TopicWord(topic=topic_group, word=word, count=count).save()
+        TopicWord(topic=topic_group, type=type, count=count).save()
     topic_group.save()
 
     transaction.commit()
@@ -308,13 +308,13 @@ def reaggregate_doctopicword(topic_group):
     doctopwords = {}
     for topic in topic_group.subtopics:
         for dtw in topic.documenttopicword_set.all():
-            count = doctopwords.get((dtw.topic, dtw.word, dtw.document), 0)
-            doctopwords[dtw.topic, dtw.word, dtw.document] = count + dtw.count
+            count = doctopwords.get((dtw.topic, dtw.type, dtw.document), 0)
+            doctopwords[dtw.topic, dtw.type, dtw.document] = count + dtw.count
 
     for keys, count in doctopwords.iteritems():
         topic, word, doc = keys
         DocumentTopicWord(topic=topic,
-                          word=word,
+                          type=type,
                           document=doc,
                           count=count).save()
 

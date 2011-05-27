@@ -64,6 +64,8 @@ from topic_modeling.visualize.models import DocumentMetric
 from topic_modeling.visualize.models import PairwiseDocumentMetric
 from topic_modeling.visualize.models import TopicNameScheme
 from django.db.utils import DatabaseError
+from topic_modeling import anyjson
+from import_scripts.dataset_import2 import DatasetImporter
 
 #If this file is invoked directly, pass it in to the doit system for processing.
 # TODO(matt): Pretty hackish, but it's a starting place.  This should be
@@ -145,10 +147,21 @@ if 'mallet_num_iterations' not in locals():
 
 # For dynamically generated attributes file, define task_attributes_file with
 # targets [attributes_file]
-if 'attributes_file' not in locals():
-    attributes_file = dataset_dir + "/attributes.json"
+if 'metadata_dir' not in locals():
+    metadata_dir = dataset_dir + "/metadata"
+if 'metadata_types_file' not in locals():
+    metadata_types_file = metadata_dir + "/types.json"
+if 'metadata_types' not in locals():
+    metadata_types = anyjson.deserialize(open(metadata_types_file).read())
+if 'metadata_files' not in locals():
+    metadata_files = {
+        "datasets": metadata_dir + "/datasets.json",
+        "documents": metadata_dir + "/documents.json"
+    }
+
 if 'markup_dir' not in locals():
     markup_dir = "{0}/{1}-markup".format(dataset_dir, analysis_name)
+
 
 # Metrics
 # See the documentation or look in metric_scripts for a complete list of
@@ -224,21 +237,24 @@ def directory_recursive_hash(dir):
     if not os.path.exists(dir): return "0"
     return hash(cmd_output("find {dir} -type f -print0 | xargs -0 md5sum".format(dir=dir)))
 
+def make_empty_metadata_file(filename):
+    metadata = open(filename, "w")
+    metadata.write('{')
+#    for path in os.listdir(files_dir):
+#        metadata.write('"' + path + '": {}')
+    metadata.write('}')
+    metadata.close()
+
 #If no existing attributes task exists, and if suppress_default_attributes_task is not set to True,
 #then define a default attributes task that generates an empty attributes file
 #TODO(josh): make the attributes file optional for the import scripts
-if not 'task_attributes' in locals() and not ('suppress_default_attributes_task' in locals() and locals()['suppress_default_attributes_task']):
-    def make_attributes():
-        attrs = open(attributes_file, "w")
-        attrs.write('[')
-        for filename in os.listdir(files_dir):
-            attrs.write('{"attributes": {}, "path": "' + filename + '"}')
-        attrs.write(']')
+if not 'task_document_metadata' in locals() and not ('suppress_default_attributes_task' in locals() and locals()['suppress_default_attributes_task']):
+    
 
-    def task_attributes():
+    def task_document_metadata():
         task = dict()
-        task['targets'] = [attributes_file]
-        task['actions'] = [(make_attributes)]
+        task['targets'] = [document_metadata_file]
+        task['actions'] = [(make_empty_metadata_file, [document_metadata_file])]
         return task
 
 if 'task_mallet_input' not in locals():
@@ -290,6 +306,10 @@ if 'task_mallet' not in locals():
         return {'actions':None, 'task_dep': ['mallet_input', 'mallet_imported_data', 'mallet_output_gz', 'mallet_output']}
 
 if 'task_dataset_import' not in locals():
+    def import_dataset():
+        di = DatasetImporter(dataset_name, dataset_readable_name, dataset_description, dataset_dir, files_dir, metadata_types, metadata_files, token_regex)
+        di.import_dataset()
+        
     def task_dataset_import():
         def dataset_in_database():
             try:
@@ -303,10 +323,12 @@ if 'task_dataset_import' not in locals():
         # analysis_import.py, now that we are using this build script - we don't
         #  need standalone scripts anymore for that stuff
         task = dict()
-        task['actions'] = [(import_dataset, [dataset_name, dataset_readable_name, dataset_description, mallet_output, attributes_file, dataset_dir, files_dir])]
-        task['file_dep'] = [mallet_output, attributes_file, yamba_file]
+        task['actions'] = [(import_dataset,)]
+        task['file_dep'] = [metadata_types_file, yamba_file]+[file for file in metadata_files.values()]
         task['clean'] = [(remove_dataset, [dataset_name])]
         task['uptodate'] = [dataset_in_database()]
+        if 'task_extract_data' in globals():
+            task['task_dep'] = ['extract_data']
         return task
 
 if 'task_analysis_import' not in locals():
@@ -319,8 +341,8 @@ if 'task_analysis_import' not in locals():
             except (Dataset.DoesNotExist, Analysis.DoesNotExist):
                 return False
         task = dict()
-        task['actions'] = [(import_analysis, [analysis_name, analysis_readable_name, analysis_description, dataset_name, attributes_file, mallet_output, mallet_input, files_dir, token_regex])]
-        task['file_dep'] = [mallet_output, mallet_input, attributes_file]
+        task['actions'] = [(import_analysis, [analysis_name, analysis_readable_name, analysis_description, dataset_name, metadata_files['documents'], mallet_output, mallet_input, files_dir, token_regex])]
+        task['file_dep'] = [mallet_output, mallet_input, metadata_files['documents']]
         task['clean'] = [
             (remove_analysis, [dataset_name, analysis_name]),
             "rm -rf {0}".format(markup_dir)
