@@ -1,0 +1,15 @@
+{
+	"dataset": {
+		"token_count": "int"
+	},
+
+	"document": {
+		"address_number": "int",
+		"title": "text",
+		"author_name": "text",
+		"month": "text",
+		"president_name": "text",
+		"year": "int",
+		"day": "int"
+	}
+}

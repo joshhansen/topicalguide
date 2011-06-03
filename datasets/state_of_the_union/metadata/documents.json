@@ -1,0 +1,2232 @@
+{
+	"George_Washington_1.txt": {
+		"address_number": "First",
+		"title": "George Washington's First State of the Union Address",
+		"author_name": "George Washington",
+		"month": "January",
+		"president_name": "George Washington",
+		"year": "1790",
+		"day": "8"
+	},
+},
+	"George_Washington_2.txt": {
+		"address_number": "Second",
+		"title": "George Washington's Second State of the Union Address",
+		"author_name": "George Washington",
+		"month": "December",
+		"president_name": "George Washington",
+		"year": "1790",
+		"day": "8"
+	},
+},
+	"George_Washington_3.txt": {
+		"address_number": "Third",
+		"title": "George Washington's Third State of the Union Address",
+		"author_name": "George Washington",
+		"month": "October",
+		"president_name": "George Washington",
+		"year": "1791",
+		"day": "25"
+	},
+},
+	"George_Washington_4.txt": {
+		"address_number": "Fourth",
+		"title": "George Washington's Fourth State of the Union Address",
+		"author_name": "George Washington",
+		"month": "November",
+		"president_name": "George Washington",
+		"year": "1792",
+		"day": "6"
+	},
+},
+	"George_Washington_5.txt": {
+		"address_number": "Fifth",
+		"title": "George Washington's Fifth State of the Union Address",
+		"author_name": "George Washington",
+		"month": "December",
+		"president_name": "George Washington",
+		"year": "1793",
+		"day": "3"
+	},
+},
+	"George_Washington_6.txt": {
+		"address_number": "Sixth",
+		"title": "George Washington's Sixth State of the Union Address",
+		"author_name": "George Washington",
+		"month": "November",
+		"president_name": "George Washington",
+		"year": "1794",
+		"day": "19"
+	},
+},
+	"George_Washington_7.txt": {
+		"address_number": "Seventh",
+		"title": "George Washington's Seventh State of the Union Address",
+		"author_name": "George Washington",
+		"month": "December",
+		"president_name": "George Washington",
+		"year": "1795",
+		"day": "8"
+	},
+},
+	"George_Washington_8.txt": {
+		"address_number": "Eighth",
+		"title": "George Washington's Eighth State of the Union Address",
+		"author_name": "George Washington",
+		"month": "December",
+		"president_name": "George Washington",
+		"year": "1796",
+		"day": "7"
+	},
+},
+	"John_Adams_1.txt": {
+		"address_number": "First",
+		"title": "John Adams' First State of the Union Address",
+		"author_name": "John Adams",
+		"month": "November",
+		"president_name": "John Adams",
+		"year": "1797",
+		"day": "22"
+	},
+},
+	"John_Adams_2.txt": {
+		"address_number": "Second",
+		"title": "John Adams' Second State of the Union Address",
+		"author_name": "John Adams",
+		"month": "December",
+		"president_name": "John Adams",
+		"year": "1798",
+		"day": "8"
+	},
+},
+	"John_Adams_3.txt": {
+		"address_number": "Third",
+		"title": "John Adams' Third State of the Union Address",
+		"author_name": "John Adams",
+		"month": "December",
+		"president_name": "John Adams",
+		"year": "1799",
+		"day": "3"
+	},
+},
+	"John_Adams_4.txt": {
+		"address_number": "Fourth",
+		"title": "John Adams' Fourth State of the Union Address",
+		"author_name": "John Adams",
+		"month": "November",
+		"president_name": "John Adams",
+		"year": "1800",
+		"day": "22"
+	},
+},
+	"Thomas_Jefferson_1.txt": {
+		"address_number": "First",
+		"title": "Thomas Jefferson's First State of the Union Address",
+		"author_name": "Thomas Jefferson",
+		"month": "December",
+		"president_name": "Thomas Jefferson",
+		"year": "1801",
+		"day": "8"
+	},
+},
+	"Thomas_Jefferson_2.txt": {
+		"address_number": "Second",
+		"title": "Thomas Jefferson's Second State of the Union Address",
+		"author_name": "Thomas Jefferson",
+		"month": "December",
+		"president_name": "Thomas Jefferson",
+		"year": "1802",
+		"day": "15"
+	},
+},
+	"Thomas_Jefferson_3.txt": {
+		"address_number": "Third",
+		"title": "Thomas Jefferson's Third State of the Union Address",
+		"author_name": "Thomas Jefferson",
+		"month": "October",
+		"president_name": "Thomas Jefferson",
+		"year": "1803",
+		"day": "17"
+	},
+},
+	"Thomas_Jefferson_4.txt": {
+		"address_number": "Fourth",
+		"title": "Thomas Jefferson's Fourth State of the Union Address",
+		"author_name": "Thomas Jefferson",
+		"month": "November",
+		"president_name": "Thomas Jefferson",
+		"year": "1804",
+		"day": "8"
+	},
+},
+	"Thomas_Jefferson_5.txt": {
+		"address_number": "Fifth",
+		"title": "Thomas Jefferson's Fifth State of the Union Address",
+		"author_name": "Thomas Jefferson",
+		"month": "December",
+		"president_name": "Thomas Jefferson",
+		"year": "1805",
+		"day": "3"
+	},
+},
+	"Thomas_Jefferson_6.txt": {
+		"address_number": "Sixth",
+		"title": "Thomas Jefferson's Sixth State of the Union Address",
+		"author_name": "Thomas Jefferson",
+		"month": "December",
+		"president_name": "Thomas Jefferson",
+		"year": "1806",
+		"day": "2"
+	},
+},
+	"Thomas_Jefferson_7.txt": {
+		"address_number": "Seventh",
+		"title": "Thomas Jefferson's Seventh State of the Union Address",
+		"author_name": "Thomas Jefferson",
+		"month": "October",
+		"president_name": "Thomas Jefferson",
+		"year": "1807",
+		"day": "27"
+	},
+},
+	"Thomas_Jefferson_8.txt": {
+		"address_number": "Eighth",
+		"title": "Thomas Jefferson's Eighth State of the Union Address",
+		"author_name": "Thomas Jefferson",
+		"month": "November",
+		"president_name": "Thomas Jefferson",
+		"year": "1808",
+		"day": "8"
+	},
+},
+	"James_Madison_1.txt": {
+		"address_number": "First",
+		"title": "James Madison's First State of the Union address",
+		"author_name": "James Madison",
+		"month": "November",
+		"president_name": "James Madison",
+		"year": "1809",
+		"day": "29"
+	},
+},
+	"James_Madison_2.txt": {
+		"address_number": "Second",
+		"title": "James Madison's Second State of the Union address",
+		"author_name": "James Madison",
+		"month": "December",
+		"president_name": "James Madison",
+		"year": "1810",
+		"day": "10"
+	},
+},
+	"James_Madison_3.txt": {
+		"address_number": "Third",
+		"title": "James Madison's Third State of the Union Address",
+		"author_name": "James Madison",
+		"month": "November",
+		"president_name": "James Madison",
+		"year": "1811",
+		"day": "5"
+	},
+},
+	"James_Madison_4.txt": {
+		"address_number": "Fourth",
+		"title": "James Madison's Fourth State of the Union Address",
+		"author_name": "James Madison",
+		"month": "November",
+		"president_name": "James Madison",
+		"year": "1812",
+		"day": "12"
+	},
+},
+	"James_Madison_5.txt": {
+		"address_number": "Fifth",
+		"title": "James Madison's Fifth State of the Union Address",
+		"author_name": "James Madison",
+		"month": "December",
+		"president_name": "James Madison",
+		"year": "1813",
+		"day": "7"
+	},
+},
+	"James_Madison_6.txt": {
+		"address_number": "Sixth",
+		"title": "James Madison's Sixth State of the Union Address",
+		"author_name": "James Madison",
+		"month": "September",
+		"president_name": "James Madison",
+		"year": "1814",
+		"day": "20"
+	},
+},
+	"James_Madison_7.txt": {
+		"address_number": "Seventh",
+		"title": "James Madison's Seventh State of the Union Address",
+		"author_name": "James Madison",
+		"month": "December",
+		"president_name": "James Madison",
+		"year": "1815",
+		"day": "5"
+	},
+},
+	"James_Madison_8.txt": {
+		"address_number": "Eighth",
+		"title": "James Madison's Eighth State of the Union Address",
+		"author_name": "James Madison",
+		"month": "December",
+		"president_name": "James Madison",
+		"year": "1816",
+		"day": "3"
+	},
+},
+	"James_Monroe_1.txt": {
+		"address_number": "First",
+		"title": "James Monroe's First State of the Union Address",
+		"author_name": "James Monroe",
+		"month": "December",
+		"president_name": "James Monroe",
+		"year": "1817",
+		"day": "12"
+	},
+},
+	"James_Monroe_2.txt": {
+		"address_number": "Second",
+		"title": "James Monroe's Second State of the Union Address",
+		"author_name": "James Monroe",
+		"month": "November",
+		"president_name": "James Monroe",
+		"year": "1818",
+		"day": "16"
+	},
+},
+	"James_Monroe_3.txt": {
+		"address_number": "Third",
+		"title": "James Monroe's Third State of the Union Address",
+		"author_name": "James Monroe",
+		"month": "December",
+		"president_name": "James Monroe",
+		"year": "1819",
+		"day": "7"
+	},
+},
+	"James_Monroe_4.txt": {
+		"address_number": "Fourth",
+		"title": "James Monroe's Fourth State of the Union Address",
+		"author_name": "James Monroe",
+		"month": "November",
+		"president_name": "James Monroe",
+		"year": "1820",
+		"day": "14"
+	},
+},
+	"James_Monroe_5.txt": {
+		"address_number": "Fifth",
+		"title": "James Monroe's Fifth State of the Union Address",
+		"author_name": "James Monroe",
+		"month": "December",
+		"president_name": "James Monroe",
+		"year": "1821",
+		"day": "3"
+	},
+},
+	"James_Monroe_6.txt": {
+		"address_number": "Sixth",
+		"title": "James Monroe's Sixth State of the Union Address",
+		"author_name": "James Monroe",
+		"month": "December",
+		"president_name": "James Monroe",
+		"year": "1822",
+		"day": "3"
+	},
+},
+	"James_Monroe_7.txt": {
+		"address_number": "Seventh",
+		"title": "James Monroe's Seventh State of the Union Address",
+		"author_name": "James Monroe",
+		"month": "December",
+		"president_name": "James Monroe",
+		"year": "1823",
+		"day": "2"
+	},
+},
+	"James_Monroe_8.txt": {
+		"address_number": "Eighth",
+		"title": "James Monroe's Eighth State of the Union Address",
+		"author_name": "James Monroe",
+		"month": "December",
+		"president_name": "James Monroe",
+		"year": "1824",
+		"day": "7"
+	},
+},
+	"John_Quincy_Adams_1.txt": {
+		"address_number": "First",
+		"title": "John Quincy Adams' First State of the Union Address",
+		"author_name": "John Quincy Adams",
+		"month": "December",
+		"president_name": "John Quincy Adams",
+		"year": "1825",
+		"day": "6"
+	},
+},
+	"John_Quincy_Adams_2.txt": {
+		"address_number": "Second",
+		"title": "John Quincy Adams' Second State of the Union Address",
+		"author_name": "John Quincy Adams",
+		"month": "December",
+		"president_name": "John Quincy Adams",
+		"year": "1826",
+		"day": "5"
+	},
+},
+	"John_Quincy_Adams_3.txt": {
+		"address_number": "Third",
+		"title": "John Quincy Adams' Third State of the Union Address",
+		"author_name": "John Quincy Adams",
+		"month": "December",
+		"president_name": "John Quincy Adams",
+		"year": "1827",
+		"day": "4"
+	},
+},
+	"John_Quincy_Adams_4.txt": {
+		"address_number": "Fourth",
+		"title": "John Quincy Adams' Fourth State of the Union Address",
+		"author_name": "John Quincy Adams",
+		"month": "December",
+		"president_name": "John Quincy Adams",
+		"year": "1828",
+		"day": "2"
+	},
+},
+	"Andrew_Jackson_1.txt": {
+		"address_number": "First",
+		"title": "Andrew Jackson's First State of the Union Address",
+		"author_name": "Andrew Jackson",
+		"month": "December",
+		"president_name": "Andrew Jackson",
+		"year": "1829",
+		"day": "8"
+	},
+},
+	"Andrew_Jackson_2.txt": {
+		"address_number": "Second",
+		"title": "Andrew Jackson's Second State of the Union Address",
+		"author_name": "Andrew Jackson",
+		"month": "December",
+		"president_name": "Andrew Jackson",
+		"year": "1830",
+		"day": "6"
+	},
+},
+	"Andrew_Jackson_3.txt": {
+		"address_number": "Third",
+		"title": "Andrew Jackson's Third State of the Union Address",
+		"author_name": "Andrew Jackson",
+		"month": "December",
+		"president_name": "Andrew Jackson",
+		"year": "1831",
+		"day": "6"
+	},
+},
+	"Andrew_Jackson_4.txt": {
+		"address_number": "Fourth",
+		"title": "Andrew Jackson's Fourth State of the Union Address",
+		"author_name": "Andrew Jackson",
+		"month": "December",
+		"president_name": "Andrew Jackson",
+		"year": "1832",
+		"day": "4"
+	},
+},
+	"Andrew_Jackson_5.txt": {
+		"address_number": "Fifth",
+		"title": "Andrew Jackson's Fifth State of the Union Address",
+		"author_name": "Andrew Jackson",
+		"month": "December",
+		"president_name": "Andrew Jackson",
+		"year": "1833",
+		"day": "3"
+	},
+},
+	"Andrew_Jackson_6.txt": {
+		"address_number": "Sixth",
+		"title": "Andrew Jackson's Sixth State of the Union Address",
+		"author_name": "Andrew Jackson",
+		"month": "December",
+		"president_name": "Andrew Jackson",
+		"year": "1834",
+		"day": "1"
+	},
+},
+	"Andrew_Jackson_7.txt": {
+		"address_number": "Seventh",
+		"title": "Andrew Jackson's Seventh State of the Union Address",
+		"author_name": "Andrew Jackson",
+		"month": "December",
+		"president_name": "Andrew Jackson",
+		"year": "1835",
+		"day": "7"
+	},
+},
+	"Andrew_Jackson_8.txt": {
+		"address_number": "Eighth",
+		"title": "Andrew Jackson's Eighth State of the Union Address",
+		"author_name": "Andrew Jackson",
+		"month": "December",
+		"president_name": "Andrew Jackson",
+		"year": "1836",
+		"day": "5"
+	},
+},
+	"Martin_Van_Buren_1.txt": {
+		"address_number": "First",
+		"title": "Martin Van Buren's First State of the Union address",
+		"author_name": "Martin Van Buren",
+		"month": "December",
+		"president_name": "Martin Van Buren",
+		"year": "1837",
+		"day": "5"
+	},
+},
+	"Martin_Van_Buren_2.txt": {
+		"address_number": "Second",
+		"title": "Martin Van Buren's Second State of the Union address",
+		"author_name": "Martin Van Buren",
+		"month": "December",
+		"president_name": "Martin Van Buren",
+		"year": "1838",
+		"day": "3"
+	},
+},
+	"Martin_Van_Buren_3.txt": {
+		"address_number": "Third",
+		"title": "Martin Van Buren's Third State of the Union address",
+		"author_name": "Martin Van Buren",
+		"month": "December",
+		"president_name": "Martin Van Buren",
+		"year": "1839",
+		"day": "2"
+	},
+},
+	"Martin_Van_Buren_4.txt": {
+		"address_number": "Fourth",
+		"title": "Martin Van Buren's Fourth State of the Union address",
+		"author_name": "Martin Van Buren",
+		"month": "December",
+		"president_name": "Martin Van Buren",
+		"year": "1840",
+		"day": "5"
+	},
+},
+	"John_Tyler_1.txt": {
+		"address_number": "First",
+		"title": "John Tyler's First State of the Union Address",
+		"author_name": "John Tyler",
+		"month": "December",
+		"president_name": "John Tyler",
+		"year": "1841",
+		"day": "7"
+	},
+},
+	"John_Tyler_2.txt": {
+		"address_number": "Second",
+		"title": "John Tyler's Second State of the Union Address",
+		"author_name": "John Tyler",
+		"month": "December",
+		"president_name": "John Tyler",
+		"year": "1842",
+		"day": "6"
+	},
+},
+	"John_Tyler_3.txt": {
+		"address_number": "Third",
+		"title": "John Tyler's Third State of the Union Address",
+		"author_name": "John Tyler",
+		"month": "December",
+		"president_name": "John Tyler",
+		"year": "1843",
+		"day": "5"
+	},
+},
+	"John_Tyler_4.txt": {
+		"address_number": "Fourth",
+		"title": "John Tyler's Fourth State of the Union Address",
+		"author_name": "John Tyler",
+		"month": "December",
+		"president_name": "John Tyler",
+		"year": "1844",
+		"day": "3"
+	},
+},
+	"James_K._Polk_1.txt": {
+		"address_number": "First",
+		"title": "James K. Polk's First State of the Union Address",
+		"author_name": "James K. Polk",
+		"month": "December",
+		"president_name": "James K. Polk",
+		"year": "1845",
+		"day": "2"
+	},
+},
+	"James_K._Polk_2.txt": {
+		"address_number": "Second",
+		"title": "James K. Polk's Second State of the Union Address",
+		"author_name": "James K. Polk",
+		"month": "December",
+		"president_name": "James K. Polk",
+		"year": "1846",
+		"day": "8"
+	},
+},
+	"James_K._Polk_3.txt": {
+		"address_number": "Third",
+		"title": "James K. Polk's Third State of the Union Address",
+		"author_name": "James K. Polk",
+		"month": "December",
+		"president_name": "James K. Polk",
+		"year": "1847",
+		"day": "7"
+	},
+},
+	"James_K._Polk_4.txt": {
+		"address_number": "Fourth",
+		"title": "James K. Polk's Fourth State of the Union Address",
+		"author_name": "James K. Polk",
+		"month": "December",
+		"president_name": "James K. Polk",
+		"year": "1848",
+		"day": "5"
+	},
+},
+	"Zachary_Taylor_1.txt": {
+		"address_number": "First",
+		"title": "Zachary Taylor's State of the Union Address",
+		"author_name": "Zachary Taylor",
+		"month": "December",
+		"president_name": "Zachary Taylor",
+		"year": "1849",
+		"day": "4"
+	},
+},
+	"Millard_Fillmore_1.txt": {
+		"address_number": "First",
+		"title": "Millard Fillmore's First State of the Union Address",
+		"author_name": "Millard Fillmore",
+		"month": "December",
+		"president_name": "Millard Fillmore",
+		"year": "1850",
+		"day": "2"
+	},
+},
+	"Millard_Fillmore_2.txt": {
+		"address_number": "Second",
+		"title": "Millard Fillmore's Second State of the Union Address",
+		"author_name": "Millard Fillmore",
+		"month": "December",
+		"president_name": "Millard Fillmore",
+		"year": "1851",
+		"day": "2"
+	},
+},
+	"Millard_Fillmore_3.txt": {
+		"address_number": "Third",
+		"title": "Millard Fillmore's Third State of the Union Address",
+		"author_name": "Millard Fillmore",
+		"month": "December",
+		"president_name": "Millard Fillmore",
+		"year": "1852",
+		"day": "6"
+	},
+},
+	"Franklin_Pierce_1.txt": {
+		"address_number": "First",
+		"title": "Franklin Pierce's First State of the Union Address",
+		"author_name": "Franklin Pierce",
+		"month": "December",
+		"president_name": "Franklin Pierce",
+		"year": "1853",
+		"day": "5"
+	},
+},
+	"Franklin_Pierce_2.txt": {
+		"address_number": "Second",
+		"title": "Franklin Pierce's Second State of the Union Address",
+		"author_name": "Franklin Pierce",
+		"month": "December",
+		"president_name": "Franklin Pierce",
+		"year": "1854",
+		"day": "4"
+	},
+},
+	"Franklin_Pierce_3.txt": {
+		"address_number": "Third",
+		"title": "Franklin Pierce's Third State of the Union Address",
+		"author_name": "Franklin Pierce",
+		"month": "December",
+		"president_name": "Franklin Pierce",
+		"year": "1855",
+		"day": "31"
+	},
+},
+	"Franklin_Pierce_4.txt": {
+		"address_number": "Fourth",
+		"title": "Franklin Pierce's Fourth State of the Union Address",
+		"author_name": "Franklin Pierce",
+		"month": "December",
+		"president_name": "Franklin Pierce",
+		"year": "1856",
+		"day": "2"
+	},
+},
+	"James_Buchanan_1.txt": {
+		"address_number": "First",
+		"title": "James Buchanan's First State of the Union Address",
+		"author_name": "James Buchanan",
+		"month": "December",
+		"president_name": "James Buchanan",
+		"year": "1857",
+		"day": "8"
+	},
+},
+	"James_Buchanan_2.txt": {
+		"address_number": "Second",
+		"title": "James Buchanan's Second State of the Union Address",
+		"author_name": "James Buchanan",
+		"month": "December",
+		"president_name": "James Buchanan",
+		"year": "1858",
+		"day": "6"
+	},
+},
+	"James_Buchanan_3.txt": {
+		"address_number": "Third",
+		"title": "James Buchanan's Third State of the Union Address",
+		"author_name": "James Buchanan",
+		"month": "December",
+		"president_name": "James Buchanan",
+		"year": "1859",
+		"day": "19"
+	},
+},
+	"James_Buchanan_4.txt": {
+		"address_number": "Fourth",
+		"title": "James Buchanan's Fourth State of the Union Address",
+		"author_name": "James Buchanan",
+		"month": "December",
+		"president_name": "James Buchanan",
+		"year": "1860",
+		"day": "3"
+	},
+},
+	"Abraham_Lincoln_1.txt": {
+		"address_number": "First",
+		"title": "Abraham Lincoln's First State of the Union Address",
+		"author_name": "Abraham Lincoln",
+		"month": "December",
+		"president_name": "Abraham Lincoln",
+		"year": "1861",
+		"day": "3"
+	},
+},
+	"Abraham_Lincoln_2.txt": {
+		"address_number": "Second",
+		"title": "Abraham Lincoln's Second State of the Union Address",
+		"author_name": "Abraham Lincoln",
+		"month": "December",
+		"president_name": "Abraham Lincoln",
+		"year": "1862",
+		"day": "1"
+	},
+},
+	"Abraham_Lincoln_3.txt": {
+		"address_number": "Third",
+		"title": "Abraham Lincoln's Third State of the Union Address",
+		"author_name": "Abraham Lincoln",
+		"month": "December",
+		"president_name": "Abraham Lincoln",
+		"year": "1863",
+		"day": "8"
+	},
+},
+	"Abraham_Lincoln_4.txt": {
+		"address_number": "Fourth",
+		"title": "Abraham Lincoln's Fourth State of the Union Address",
+		"author_name": "Abraham Lincoln",
+		"month": "December",
+		"president_name": "Abraham Lincoln",
+		"year": "1864",
+		"day": "6"
+	},
+},
+	"Andrew_Johnson_1.txt": {
+		"address_number": "First",
+		"title": "Andrew Johnson's First State of the Union Address",
+		"author_name": "Andrew Johnson",
+		"month": "December",
+		"president_name": "Andrew Johnson",
+		"year": "1865",
+		"day": "4"
+	},
+},
+	"Andrew_Johnson_2.txt": {
+		"address_number": "Second",
+		"title": "Andrew Johnson's Second State of the Union Address",
+		"author_name": "Andrew Johnson",
+		"month": "December",
+		"president_name": "Andrew Johnson",
+		"year": "1866",
+		"day": "3"
+	},
+},
+	"Andrew_Johnson_3.txt": {
+		"address_number": "Third",
+		"title": "Andrew Johnson's Third State of the Union Address",
+		"author_name": "Andrew Johnson",
+		"month": "December",
+		"president_name": "Andrew Johnson",
+		"year": "1867",
+		"day": "3"
+	},
+},
+	"Andrew_Johnson_4.txt": {
+		"address_number": "Fourth",
+		"title": "Andrew Johnson's Fourth State of the Union Address",
+		"author_name": "Andrew Johnson",
+		"month": "December",
+		"president_name": "Andrew Johnson",
+		"year": "1868",
+		"day": "9"
+	},
+},
+	"Ulysses_S._Grant_1.txt": {
+		"address_number": "First",
+		"title": "Ulysses S. Grant's First State of the Union Address",
+		"author_name": "Ulysses S. Grant",
+		"month": "December",
+		"president_name": "Ulysses S. Grant",
+		"year": "1869",
+		"day": "6"
+	},
+},
+	"Ulysses_S._Grant_2.txt": {
+		"address_number": "Second",
+		"title": "Ulysses S. Grant's Second State of the Union Address",
+		"author_name": "Ulysses S. Grant",
+		"month": "December",
+		"president_name": "Ulysses S. Grant",
+		"year": "1870",
+		"day": "5"
+	},
+},
+	"Ulysses_S._Grant_3.txt": {
+		"address_number": "Third",
+		"title": "Ulysses S. Grant's Third State of the Union Address",
+		"author_name": "Ulysses S. Grant",
+		"month": "December",
+		"president_name": "Ulysses S. Grant",
+		"year": "1871",
+		"day": "4"
+	},
+},
+	"Ulysses_S._Grant_4.txt": {
+		"address_number": "Fourth",
+		"title": "Ulysses S. Grant's Fourth State of the Union Address",
+		"author_name": "Ulysses S. Grant",
+		"month": "December",
+		"president_name": "Ulysses S. Grant",
+		"year": "1872",
+		"day": "2"
+	},
+},
+	"Ulysses_S._Grant_5.txt": {
+		"address_number": "Fifth",
+		"title": "Ulysses S. Grant's Fifth State of the Union Address",
+		"author_name": "Ulysses S. Grant",
+		"month": "December",
+		"president_name": "Ulysses S. Grant",
+		"year": "1873",
+		"day": "1"
+	},
+},
+	"Ulysses_S._Grant_6.txt": {
+		"address_number": "Sixth",
+		"title": "Ulysses S. Grant's Sixth State of the Union Address",
+		"author_name": "Ulysses S. Grant",
+		"month": "December",
+		"president_name": "Ulysses S. Grant",
+		"year": "1874",
+		"day": "7"
+	},
+},
+	"Ulysses_S._Grant_7.txt": {
+		"address_number": "Seventh",
+		"title": "Ulysses S. Grant's Seventh State of the Union Address",
+		"author_name": "Ulysses S. Grant",
+		"month": "December",
+		"president_name": "Ulysses S. Grant",
+		"year": "1875",
+		"day": "7"
+	},
+},
+	"Ulysses_S._Grant_8.txt": {
+		"address_number": "Eighth",
+		"title": "Ulysses S. Grant's Eighth State of the Union Address",
+		"author_name": "Ulysses S. Grant",
+		"month": "December",
+		"president_name": "Ulysses S. Grant",
+		"year": "1876",
+		"day": "5"
+	},
+},
+	"Rutherford_B._Hayes_1.txt": {
+		"address_number": "First",
+		"title": "Rutherford B. Hayes' First State of the Union Address",
+		"author_name": "Rutherford B. Hayes",
+		"month": "December",
+		"president_name": "Rutherford B. Hayes",
+		"year": "1877",
+		"day": "3"
+	},
+},
+	"Rutherford_B._Hayes_2.txt": {
+		"address_number": "Second",
+		"title": "Rutherford B. Hayes' Second State of the Union Address",
+		"author_name": "Rutherford B. Hayes",
+		"month": "December",
+		"president_name": "Rutherford B. Hayes",
+		"year": "1878",
+		"day": "2"
+	},
+},
+	"Rutherford_B._Hayes_3.txt": {
+		"address_number": "Third",
+		"title": "Rutherford B. Hayes' Third State of the Union Address",
+		"author_name": "Rutherford B. Hayes",
+		"month": "December",
+		"president_name": "Rutherford B. Hayes",
+		"year": "1879",
+		"day": "1"
+	},
+},
+	"Rutherford_B._Hayes_4.txt": {
+		"address_number": "Fourth",
+		"title": "Rutherford B. Hayes' Fourth State of the Union Address",
+		"author_name": "Rutherford B. Hayes",
+		"month": "December",
+		"president_name": "Rutherford B. Hayes",
+		"year": "1880",
+		"day": "6"
+	},
+},
+	"Chester_A._Arthur_1.txt": {
+		"address_number": "First",
+		"title": "Chester A. Arthur's First State of the Union Address",
+		"author_name": "Chester A. Arthur",
+		"month": "December",
+		"president_name": "Chester A. Arthur",
+		"year": "1881",
+		"day": "6"
+	},
+},
+	"Chester_A._Arthur_2.txt": {
+		"address_number": "Second",
+		"title": "Chester A. Arthur's Second State of the Union Address",
+		"author_name": "Chester A. Arthur",
+		"month": "December",
+		"president_name": "Chester A. Arthur",
+		"year": "1882",
+		"day": "4"
+	},
+},
+	"Chester_A._Arthur_3.txt": {
+		"address_number": "Third",
+		"title": "Chester A. Arthur's Third State of the Union Address",
+		"author_name": "Chester A. Arthur",
+		"month": "December",
+		"president_name": "Chester A. Arthur",
+		"year": "1883",
+		"day": "4"
+	},
+},
+	"Chester_A._Arthur_4.txt": {
+		"address_number": "Fourth",
+		"title": "Chester A. Arthur's Fourth State of the Union Address",
+		"author_name": "Chester A. Arthur",
+		"month": "December",
+		"president_name": "Chester A. Arthur",
+		"year": "1884",
+		"day": "1"
+	},
+},
+	"Grover_Cleveland_1.txt": {
+		"address_number": "First",
+		"title": "Grover Cleveland's First State of the Union Address",
+		"author_name": "Grover Cleveland",
+		"month": "December",
+		"president_name": "Grover Cleveland",
+		"year": "1885",
+		"day": "8"
+	},
+},
+	"Grover_Cleveland_2.txt": {
+		"address_number": "Second",
+		"title": "Grover Cleveland's Second State of the Union Address",
+		"author_name": "Grover Cleveland",
+		"month": "December",
+		"president_name": "Grover Cleveland",
+		"year": "1886",
+		"day": "6"
+	},
+},
+	"Grover_Cleveland_3.txt": {
+		"address_number": "Third",
+		"title": "Grover Cleveland's Third State of the Union Address",
+		"author_name": "Grover Cleveland",
+		"month": "December",
+		"president_name": "Grover Cleveland",
+		"year": "1887",
+		"day": "6"
+	},
+},
+	"Grover_Cleveland_4.txt": {
+		"address_number": "Fourth",
+		"title": "Grover Cleveland's Fourth State of the Union Address",
+		"author_name": "Grover Cleveland",
+		"month": "December",
+		"president_name": "Grover Cleveland",
+		"year": "1888",
+		"day": "3"
+	},
+},
+	"Benjamin_Harrison_1.txt": {
+		"address_number": "First",
+		"title": "Benjamin Harrison's First State of the Union Address",
+		"author_name": "Benjamin Harrison",
+		"month": "December",
+		"president_name": "Benjamin Harrison",
+		"year": "1889",
+		"day": "3"
+	},
+},
+	"Benjamin_Harrison_2.txt": {
+		"address_number": "Second",
+		"title": "Benjamin Harrison's Second State of the Union Address",
+		"author_name": "Benjamin Harrison",
+		"month": "December",
+		"president_name": "Benjamin Harrison",
+		"year": "1890",
+		"day": "1"
+	},
+},
+	"Benjamin_Harrison_3.txt": {
+		"address_number": "Third",
+		"title": "Benjamin Harrison's Third State of the Union Address",
+		"author_name": "Benjamin Harrison",
+		"month": "December",
+		"president_name": "Benjamin Harrison",
+		"year": "1891",
+		"day": "9"
+	},
+},
+	"Benjamin_Harrison_4.txt": {
+		"address_number": "Fourth",
+		"title": "Benjamin Harrison's Fourth State of the Union Address",
+		"author_name": "Benjamin Harrison",
+		"month": "December",
+		"president_name": "Benjamin Harrison",
+		"year": "1892",
+		"day": "6"
+	},
+},
+	"Grover_Cleveland_5.txt": {
+		"address_number": "Fifth",
+		"title": "Grover Cleveland's Fifth State of the Union Address",
+		"author_name": "Grover Cleveland",
+		"month": "December",
+		"president_name": "Grover Cleveland",
+		"year": "1893",
+		"day": "4"
+	},
+},
+	"Grover_Cleveland_6.txt": {
+		"address_number": "Sixth",
+		"title": "Grover Cleveland's Sixth State of the Union Address",
+		"author_name": "Grover Cleveland",
+		"month": "December",
+		"president_name": "Grover Cleveland",
+		"year": "1894",
+		"day": "3"
+	},
+},
+	"Grover_Cleveland_7.txt": {
+		"address_number": "Seventh",
+		"title": "Grover Cleveland's Seventh State of the Union Address",
+		"author_name": "Grover Cleveland",
+		"month": "December",
+		"president_name": "Grover Cleveland",
+		"year": "1895",
+		"day": "2"
+	},
+},
+	"Grover_Cleveland_8.txt": {
+		"address_number": "Eighth",
+		"title": "Grover Cleveland's Eighth State of the Union Address",
+		"author_name": "Grover Cleveland",
+		"month": "December",
+		"president_name": "Grover Cleveland",
+		"year": "1896",
+		"day": "7"
+	},
+},
+	"William_McKinley_1.txt": {
+		"address_number": "First",
+		"title": "William McKinley's First State of the Union Address",
+		"author_name": "William McKinley",
+		"month": "December",
+		"president_name": "William McKinley",
+		"year": "1897",
+		"day": "6"
+	},
+},
+	"William_McKinley_2.txt": {
+		"address_number": "Second",
+		"title": "William McKinley's Second State of the Union Address",
+		"author_name": "William McKinley",
+		"month": "December",
+		"president_name": "William McKinley",
+		"year": "1898",
+		"day": "5"
+	},
+},
+	"William_McKinley_3.txt": {
+		"address_number": "Third",
+		"title": "William McKinley's Third State of the Union Address",
+		"author_name": "William McKinley",
+		"month": "December",
+		"president_name": "William McKinley",
+		"year": "1899",
+		"day": "5"
+	},
+},
+	"William_McKinley_4.txt": {
+		"address_number": "Fourth",
+		"title": "William McKinley's Fourth State of the Union Address",
+		"author_name": "William McKinley",
+		"month": "December",
+		"president_name": "William McKinley",
+		"year": "1900",
+		"day": "3"
+	},
+},
+	"Theodore_Roosevelt_1.txt": {
+		"address_number": "First",
+		"title": "Theodore Roosevelt's First State of the Union Address",
+		"author_name": "Theodore Roosevelt",
+		"month": "December",
+		"president_name": "Theodore Roosevelt",
+		"year": "1901",
+		"day": "3"
+	},
+},
+	"Theodore_Roosevelt_2.txt": {
+		"address_number": "Second",
+		"title": "Theodore Roosevelt's Second State of the Union Address",
+		"author_name": "Theodore Roosevelt",
+		"month": "December",
+		"president_name": "Theodore Roosevelt",
+		"year": "1902",
+		"day": "2"
+	},
+},
+	"Theodore_Roosevelt_3.txt": {
+		"address_number": "Third",
+		"title": "Theodore Roosevelt's Third State of the Union Address",
+		"author_name": "Theodore Roosevelt",
+		"month": "December",
+		"president_name": "Theodore Roosevelt",
+		"year": "1903",
+		"day": "7"
+	},
+},
+	"Theodore_Roosevelt_4.txt": {
+		"address_number": "Fourth",
+		"title": "Theodore Roosevelt's Fourth State of the Union Address",
+		"author_name": "Theodore Roosevelt",
+		"month": "December",
+		"president_name": "Theodore Roosevelt",
+		"year": "1904",
+		"day": "6"
+	},
+},
+	"Theodore_Roosevelt_5.txt": {
+		"address_number": "Fifth",
+		"title": "Theodore Roosevelt's Fifth State of the Union Address",
+		"author_name": "Theodore Roosevelt",
+		"month": "December",
+		"president_name": "Theodore Roosevelt",
+		"year": "1905",
+		"day": "5"
+	},
+},
+	"Theodore_Roosevelt_6.txt": {
+		"address_number": "Sixth",
+		"title": "Theodore Roosevelt's Sixth State of the Union Address",
+		"author_name": "Theodore Roosevelt",
+		"month": "December",
+		"president_name": "Theodore Roosevelt",
+		"year": "1906",
+		"day": "3"
+	},
+},
+	"Theodore_Roosevelt_7.txt": {
+		"address_number": "Seventh",
+		"title": "Theodore Roosevelt's Seventh State of the Union Address",
+		"author_name": "Theodore Roosevelt",
+		"month": "December",
+		"president_name": "Theodore Roosevelt",
+		"year": "1907",
+		"day": "3"
+	},
+},
+	"Theodore_Roosevelt_8.txt": {
+		"address_number": "Eighth",
+		"title": "Theodore Roosevelt's Eighth State of the Union Address",
+		"author_name": "Theodore Roosevelt",
+		"month": "December",
+		"president_name": "Theodore Roosevelt",
+		"year": "1908",
+		"day": "8"
+	},
+},
+	"William_Howard_Taft_1.txt": {
+		"address_number": "First",
+		"title": "William Howard Taft's First State of the Union Address",
+		"author_name": "William Howard Taft",
+		"month": "December",
+		"president_name": "William Howard Taft",
+		"year": "1909",
+		"day": "7"
+	},
+},
+	"William_Howard_Taft_2.txt": {
+		"address_number": "Second",
+		"title": "William Howard Taft's Second State of the Union Address",
+		"author_name": "William Howard Taft",
+		"month": "December",
+		"president_name": "William Howard Taft",
+		"year": "1910",
+		"day": "6"
+	},
+},
+	"William_Howard_Taft_3.txt": {
+		"address_number": "Third",
+		"title": "William Howard Taft's Third State of the Union Address",
+		"author_name": "William Howard Taft",
+		"month": "December",
+		"president_name": "William Howard Taft",
+		"year": "1911",
+		"day": "5"
+	},
+},
+	"William_Howard_Taft_4.txt": {
+		"address_number": "Fourth",
+		"title": "William Howard Taft's Fourth State of the Union Address",
+		"author_name": "William Howard Taft",
+		"month": "December",
+		"president_name": "William Howard Taft",
+		"year": "1912",
+		"day": "3"
+	},
+},
+	"Woodrow_Wilson_1.txt": {
+		"address_number": "First",
+		"title": "Woodrow Wilson's First State of the Union Address",
+		"author_name": "Woodrow Wilson",
+		"month": "December",
+		"president_name": "Woodrow Wilson",
+		"year": "1913",
+		"day": "2"
+	},
+},
+	"Woodrow_Wilson_2.txt": {
+		"address_number": "Second",
+		"title": "Woodrow Wilson's Second State of the Union Address",
+		"author_name": "Woodrow Wilson",
+		"month": "December",
+		"president_name": "Woodrow Wilson",
+		"year": "1914",
+		"day": "8"
+	},
+},
+	"Woodrow_Wilson_3.txt": {
+		"address_number": "Third",
+		"title": "Woodrow Wilson's Third State of the Union Address",
+		"author_name": "Woodrow Wilson",
+		"month": "December",
+		"president_name": "Woodrow Wilson",
+		"year": "1915",
+		"day": "7"
+	},
+},
+	"Woodrow_Wilson_4.txt": {
+		"address_number": "Fourth",
+		"title": "Woodrow Wilson's Fourth State of the Union Address",
+		"author_name": "Woodrow Wilson",
+		"month": "December",
+		"president_name": "Woodrow Wilson",
+		"year": "1916",
+		"day": "5"
+	},
+},
+	"Woodrow_Wilson_5.txt": {
+		"address_number": "Fifth",
+		"title": "Woodrow Wilson's Fifth State of the Union Address",
+		"author_name": "Woodrow Wilson",
+		"month": "December",
+		"president_name": "Woodrow Wilson",
+		"year": "1917",
+		"day": "4"
+	},
+},
+	"Woodrow_Wilson_6.txt": {
+		"address_number": "Sixth",
+		"title": "Woodrow Wilson's Sixth State of the Union Address",
+		"author_name": "Woodrow Wilson",
+		"month": "December",
+		"president_name": "Woodrow Wilson",
+		"year": "1918",
+		"day": "2"
+	},
+},
+	"Woodrow_Wilson_7.txt": {
+		"address_number": "Seventh",
+		"title": "Woodrow Wilson's Seventh State of the Union Address",
+		"author_name": "Woodrow Wilson",
+		"month": "December",
+		"president_name": "Woodrow Wilson",
+		"year": "1919",
+		"day": "2"
+	},
+},
+	"Woodrow_Wilson_8.txt": {
+		"address_number": "Eighth",
+		"title": "Woodrow Wilson's Eighth State of the Union Address",
+		"author_name": "Woodrow Wilson",
+		"month": "December",
+		"president_name": "Woodrow Wilson",
+		"year": "1920",
+		"day": "7"
+	},
+},
+	"Warren_G._Harding_1.txt": {
+		"address_number": "First",
+		"title": "Warren G. Harding's First State of the Union Address",
+		"author_name": "Warren G. Harding",
+		"month": "December",
+		"president_name": "Warren G. Harding",
+		"year": "1921",
+		"day": "6"
+	},
+},
+	"Warren_G._Harding_2.txt": {
+		"address_number": "Second",
+		"title": "Warren G. Harding's Second State of the Union Address",
+		"author_name": "Warren G. Harding",
+		"month": "December",
+		"president_name": "Warren G. Harding",
+		"year": "1922",
+		"day": "8"
+	},
+},
+	"Calvin_Coolidge_1.txt": {
+		"address_number": "First",
+		"title": "Calvin Coolidge's First State of the Union Address",
+		"author_name": "Calvin Coolidge",
+		"month": "December",
+		"president_name": "Calvin Coolidge",
+		"year": "1923",
+		"day": "6"
+	},
+},
+	"Calvin_Coolidge_2.txt": {
+		"address_number": "Second",
+		"title": "Calvin Coolidge's Second State of the Union Address",
+		"author_name": "Calvin Coolidge",
+		"month": "December",
+		"president_name": "Calvin Coolidge",
+		"year": "1924",
+		"day": "3"
+	},
+},
+	"Calvin_Coolidge_3.txt": {
+		"address_number": "Third",
+		"title": "Calvin Coolidge's Third State of the Union Address",
+		"author_name": "Calvin Coolidge",
+		"month": "December",
+		"president_name": "Calvin Coolidge",
+		"year": "1925",
+		"day": "8"
+	},
+},
+	"Calvin_Coolidge_4.txt": {
+		"address_number": "Fourth",
+		"title": "Calvin Coolidge's Fourth State of the Union Address",
+		"author_name": "Calvin Coolidge",
+		"month": "December",
+		"president_name": "Calvin Coolidge",
+		"year": "1926",
+		"day": "7"
+	},
+},
+	"Calvin_Coolidge_5.txt": {
+		"address_number": "Fifth",
+		"title": "Calvin Coolidge's Fifth State of the Union Address",
+		"author_name": "Calvin Coolidge",
+		"month": "December",
+		"president_name": "Calvin Coolidge",
+		"year": "1927",
+		"day": "6"
+	},
+},
+	"Calvin_Coolidge_6.txt": {
+		"address_number": "Sixth",
+		"title": "Calvin Coolidge's Sixth State of the Union Address",
+		"author_name": "Calvin Coolidge",
+		"month": "December",
+		"president_name": "Calvin Coolidge",
+		"year": "1928",
+		"day": "4"
+	},
+},
+	"Herbert_Hoover_1.txt": {
+		"address_number": "First",
+		"title": "Herbert Hoover's First State of the Union Address",
+		"author_name": "Herbert Hoover",
+		"month": "December",
+		"president_name": "Herbert Hoover",
+		"year": "1929",
+		"day": "3"
+	},
+},
+	"Herbert_Hoover_2.txt": {
+		"address_number": "Second",
+		"title": "Herbert Hoover's Second State of the Union Address",
+		"author_name": "Herbert Hoover",
+		"month": "December",
+		"president_name": "Herbert Hoover",
+		"year": "1930",
+		"day": "2"
+	},
+},
+	"Herbert_Hoover_3.txt": {
+		"address_number": "Third",
+		"title": "Herbert Hoover's Third State of the Union Address",
+		"author_name": "Herbert Hoover",
+		"month": "December",
+		"president_name": "Herbert Hoover",
+		"year": "1931",
+		"day": "8"
+	},
+},
+	"Herbert_Hoover_4.txt": {
+		"address_number": "Fourth",
+		"title": "Herbert Hoover's Fourth State of the Union Address",
+		"author_name": "Herbert Hoover",
+		"month": "December",
+		"president_name": "Herbert Hoover",
+		"year": "1932",
+		"day": "6"
+	},
+},
+	"Franklin_Delano_Roosevelt_1.txt": {
+		"address_number": "First",
+		"title": "Franklin Delano Roosevelt's First State of the Union Address",
+		"author_name": "Franklin Delano Roosevelt",
+		"month": "January",
+		"president_name": "Franklin Delano Roosevelt",
+		"year": "1934",
+		"day": "3"
+	},
+},
+	"Franklin_Delano_Roosevelt_2.txt": {
+		"address_number": "Second",
+		"title": "Franklin Delano Roosevelt's Second State of the Union Address",
+		"author_name": "Franklin Delano Roosevelt",
+		"month": "January",
+		"president_name": "Franklin Delano Roosevelt",
+		"year": "1935",
+		"day": "4"
+	},
+},
+	"Franklin_Delano_Roosevelt_3.txt": {
+		"address_number": "Third",
+		"title": "Franklin Delano Roosevelt's Third State of the Union Address",
+		"author_name": "Franklin Delano Roosevelt",
+		"month": "January",
+		"president_name": "Franklin Delano Roosevelt",
+		"year": "1936",
+		"day": "3"
+	},
+},
+	"Franklin_Delano_Roosevelt_4.txt": {
+		"address_number": "Fourth",
+		"title": "Franklin Delano Roosevelt's Fourth State of the Union Address",
+		"author_name": "Franklin Delano Roosevelt",
+		"month": "January",
+		"president_name": "Franklin Delano Roosevelt",
+		"year": "1937",
+		"day": "6"
+	},
+},
+	"Franklin_Delano_Roosevelt_5.txt": {
+		"address_number": "Fifth",
+		"title": "Franklin Delano Roosevelt's Fifth State of the Union Address",
+		"author_name": "Franklin Delano Roosevelt",
+		"month": "January",
+		"president_name": "Franklin Delano Roosevelt",
+		"year": "1938",
+		"day": "3"
+	},
+},
+	"Franklin_Delano_Roosevelt_6.txt": {
+		"address_number": "Sixth",
+		"title": "Franklin Delano Roosevelt's Sixth State of the Union Address",
+		"author_name": "Franklin Delano Roosevelt",
+		"month": "January",
+		"president_name": "Franklin Delano Roosevelt",
+		"year": "1939",
+		"day": "4"
+	},
+},
+	"Franklin_Delano_Roosevelt_7.txt": {
+		"address_number": "Seventh",
+		"title": "Franklin Delano Roosevelt's Seventh State of the Union Address",
+		"author_name": "Franklin Delano Roosevelt",
+		"month": "January",
+		"president_name": "Franklin Delano Roosevelt",
+		"year": "1940",
+		"day": "3"
+	},
+},
+	"Franklin_Delano_Roosevelt_8.txt": {
+		"address_number": "Eighth",
+		"title": "Franklin Delano Roosevelt's Eighth State of the Union Address",
+		"author_name": "Franklin Delano Roosevelt",
+		"month": "January",
+		"president_name": "Franklin Delano Roosevelt",
+		"year": "1941",
+		"day": "6"
+	},
+},
+	"Franklin_Delano_Roosevelt_9.txt": {
+		"address_number": "Ninth",
+		"title": "Franklin Delano Roosevelt's Ninth State of the Union Address",
+		"author_name": "Franklin Delano Roosevelt",
+		"month": "January",
+		"president_name": "Franklin Delano Roosevelt",
+		"year": "1942",
+		"day": "6"
+	},
+},
+	"Franklin_Delano_Roosevelt_10.txt": {
+		"address_number": "Tenth",
+		"title": "Franklin Delano Roosevelt's Tenth State of the Union Address",
+		"author_name": "Franklin Delano Roosevelt",
+		"month": "January",
+		"president_name": "Franklin Delano Roosevelt",
+		"year": "1943",
+		"day": "7"
+	},
+},
+	"Franklin_Delano_Roosevelt_11.txt": {
+		"address_number": "Eleventh",
+		"title": "Franklin Delano Roosevelt's Eleventh State of the Union Address",
+		"author_name": "Franklin Delano Roosevelt",
+		"month": "January",
+		"president_name": "Franklin Delano Roosevelt",
+		"year": "1944",
+		"day": "11"
+	},
+},
+	"Franklin_Delano_Roosevelt_12.txt": {
+		"address_number": "Twelfth",
+		"title": "Franklin Delano Roosevelt's Twelfth State of the Union Address",
+		"author_name": "Franklin Delano Roosevelt",
+		"month": "January",
+		"president_name": "Franklin Delano Roosevelt",
+		"year": "1945",
+		"day": "6"
+	},
+},
+	"Harry_S._Truman_1.txt": {
+		"address_number": "First",
+		"title": "Harry S. Truman's First State of the Union Address",
+		"author_name": "Harry S. Truman",
+		"month": "January",
+		"president_name": "Harry S. Truman",
+		"year": "1946",
+		"day": "21"
+	},
+},
+	"Harry_S._Truman_2.txt": {
+		"address_number": "Second",
+		"title": "Harry S. Truman's Second State of the Union Address",
+		"author_name": "Harry S. Truman",
+		"month": "January",
+		"president_name": "Harry S. Truman",
+		"year": "1947",
+		"day": "6"
+	},
+},
+	"Harry_S._Truman_3.txt": {
+		"address_number": "Third",
+		"title": "Harry S. Truman's Third State of the Union Address",
+		"author_name": "Harry S. Truman",
+		"month": "January",
+		"president_name": "Harry S. Truman",
+		"year": "1948",
+		"day": "7"
+	},
+},
+	"Harry_S._Truman_4.txt": {
+		"address_number": "Fourth",
+		"title": "Harry S. Truman's Fourth State of the Union Address",
+		"author_name": "Harry S. Truman",
+		"month": "January",
+		"president_name": "Harry S. Truman",
+		"year": "1949",
+		"day": "5"
+	},
+},
+	"Harry_S._Truman_5.txt": {
+		"address_number": "Fifth",
+		"title": "Harry S. Truman's Fifth State of the Union Address",
+		"author_name": "Harry S. Truman",
+		"month": "January",
+		"president_name": "Harry S. Truman",
+		"year": "1950",
+		"day": "4"
+	},
+},
+	"Harry_S._Truman_6.txt": {
+		"address_number": "Sixth",
+		"title": "Harry S. Truman's Sixth State of the Union Address",
+		"author_name": "Harry S. Truman",
+		"month": "January",
+		"president_name": "Harry S. Truman",
+		"year": "1951",
+		"day": "8"
+	},
+},
+	"Harry_S._Truman_7.txt": {
+		"address_number": "Seventh",
+		"title": "Harry S. Truman's Seventh State of the Union Address",
+		"author_name": "Harry S. Truman",
+		"month": "January",
+		"president_name": "Harry S. Truman",
+		"year": "1952",
+		"day": "9"
+	},
+},
+	"Harry_S._Truman_8.txt": {
+		"address_number": "Eighth",
+		"title": "Harry S. Truman's Eighth State of the Union Address",
+		"author_name": "Harry S. Truman",
+		"month": "January",
+		"president_name": "Harry S. Truman",
+		"year": "1953",
+		"day": "7"
+	},
+},
+	"Dwight_D._Eisenhower_1.txt": {
+		"address_number": "First",
+		"title": "Dwight D. Eisenhower's First State of the Union Address",
+		"author_name": "Dwight D. Eisenhower",
+		"month": "February",
+		"president_name": "Dwight D. Eisenhower",
+		"year": "1953",
+		"day": "2"
+	},
+},
+	"Dwight_D._Eisenhower_2.txt": {
+		"address_number": "Second",
+		"title": "Dwight D. Eisenhower's Second State of the Union Address",
+		"author_name": "Dwight D. Eisenhower",
+		"month": "January",
+		"president_name": "Dwight D. Eisenhower",
+		"year": "1954",
+		"day": "7"
+	},
+},
+	"Dwight_D._Eisenhower_3.txt": {
+		"address_number": "Third",
+		"title": "Dwight D. Eisenhower's Third State of the Union Address",
+		"author_name": "Dwight D. Eisenhower",
+		"month": "January",
+		"president_name": "Dwight D. Eisenhower",
+		"year": "1955",
+		"day": "6"
+	},
+},
+	"Dwight_D._Eisenhower_4.txt": {
+		"address_number": "Fourth",
+		"title": "Dwight D. Eisenhower's Fourth State of the Union Address",
+		"author_name": "Dwight D. Eisenhower",
+		"month": "January",
+		"president_name": "Dwight D. Eisenhower",
+		"year": "1956",
+		"day": "5"
+	},
+},
+	"Dwight_D._Eisenhower_5.txt": {
+		"address_number": "Fifth",
+		"title": "Dwight D. Eisenhower's Fifth State of the Union Address",
+		"author_name": "Dwight D. Eisenhower",
+		"month": "January",
+		"president_name": "Dwight D. Eisenhower",
+		"year": "1957",
+		"day": "10"
+	},
+},
+	"Dwight_D._Eisenhower_6.txt": {
+		"address_number": "Sixth",
+		"title": "Dwight D. Eisenhower's Sixth State of the Union Address",
+		"author_name": "Dwight D. Eisenhower",
+		"month": "January",
+		"president_name": "Dwight D. Eisenhower",
+		"year": "1958",
+		"day": "9"
+	},
+},
+	"Dwight_D._Eisenhower_7.txt": {
+		"address_number": "Seventh",
+		"title": "Dwight D. Eisenhower's Seventh State of the Union Address",
+		"author_name": "Dwight D. Eisenhower",
+		"month": "January",
+		"president_name": "Dwight D. Eisenhower",
+		"year": "1959",
+		"day": "9"
+	},
+},
+	"Dwight_D._Eisenhower_8.txt": {
+		"address_number": "Eighth",
+		"title": "Dwight D. Eisenhower's Eighth State of the Union Address",
+		"author_name": "Dwight D. Eisenhower",
+		"month": "January",
+		"president_name": "Dwight D. Eisenhower",
+		"year": "1960",
+		"day": "7"
+	},
+},
+	"Dwight_D._Eisenhower_9.txt": {
+		"address_number": "Ninth",
+		"title": "Dwight D. Eisenhower's Ninth State of the Union Address",
+		"author_name": "Dwight D. Eisenhower",
+		"month": "January",
+		"president_name": "Dwight D. Eisenhower",
+		"year": "1961",
+		"day": "12"
+	},
+},
+	"John_F._Kennedy_1.txt": {
+		"address_number": "First",
+		"title": "John F. Kennedy's First State of the Union Address",
+		"author_name": "John F. Kennedy",
+		"month": "January",
+		"president_name": "John F. Kennedy",
+		"year": "1961",
+		"day": "30"
+	},
+},
+	"John_F._Kennedy_2.txt": {
+		"address_number": "Second",
+		"title": "John F. Kennedy's Second State of the Union Address",
+		"author_name": "John F. Kennedy",
+		"month": "January",
+		"president_name": "John F. Kennedy",
+		"year": "1962",
+		"day": "11"
+	},
+},
+	"John_F._Kennedy_3.txt": {
+		"address_number": "Third",
+		"title": "John F. Kennedy's Third State of the Union Address",
+		"author_name": "John F. Kennedy",
+		"month": "January",
+		"president_name": "John F. Kennedy",
+		"year": "1963",
+		"day": "14"
+	},
+},
+	"Lyndon_Baines_Johnson_1.txt": {
+		"address_number": "First",
+		"title": "Lyndon Baines Johnson's First State of the Union Address",
+		"author_name": "Lyndon B. Johnson",
+		"month": "January",
+		"president_name": "Lyndon Baines Johnson",
+		"year": "1964",
+		"day": "8"
+	},
+},
+	"Lyndon_Baines_Johnson_2.txt": {
+		"address_number": "Second",
+		"title": "Lyndon Baines Johnson's Second State of the Union Address",
+		"author_name": "Lyndon B. Johnson",
+		"month": "January",
+		"president_name": "Lyndon Baines Johnson",
+		"year": "1965",
+		"day": "4"
+	},
+},
+	"Lyndon_Baines_Johnson_3.txt": {
+		"address_number": "Third",
+		"title": "Lyndon Baines Johnson's Third State of the Union Address",
+		"author_name": "Lyndon B. Johnson",
+		"month": "January",
+		"president_name": "Lyndon Baines Johnson",
+		"year": "1966",
+		"day": "12"
+	},
+},
+	"Lyndon_Baines_Johnson_4.txt": {
+		"address_number": "Fourth",
+		"title": "Lyndon Baines Johnson's Fourth State of the Union Address",
+		"author_name": "Lyndon B. Johnson",
+		"month": "January",
+		"president_name": "Lyndon Baines Johnson",
+		"year": "1967",
+		"day": "10"
+	},
+},
+	"Lyndon_Baines_Johnson_5.txt": {
+		"address_number": "Fifth",
+		"title": "Lyndon Baines Johnson's Fifth State of the Union Address",
+		"author_name": "Lyndon B. Johnson",
+		"month": "January",
+		"president_name": "Lyndon Baines Johnson",
+		"year": "1968",
+		"day": "17"
+	},
+},
+	"Lyndon_Baines_Johnson_6.txt": {
+		"address_number": "Sixth",
+		"title": "Lyndon Baines Johnson's Sixth State of the Union Address",
+		"author_name": "Lyndon B. Johnson",
+		"month": "January",
+		"president_name": "Lyndon Baines Johnson",
+		"year": "1969",
+		"day": "14"
+	},
+},
+	"Richard_Nixon_1.txt": {
+		"address_number": "First",
+		"title": "Richard Nixon's First State of the Union Address",
+		"author_name": "Richard Nixon",
+		"month": "January",
+		"president_name": "Richard Nixon",
+		"year": "1970",
+		"day": "22"
+	},
+},
+	"Richard_Nixon_2.txt": {
+		"address_number": "Second",
+		"title": "Richard Nixon's Second State of the Union Address",
+		"author_name": "Richard Nixon",
+		"month": "January",
+		"president_name": "Richard Nixon",
+		"year": "1971",
+		"day": "22"
+	},
+},
+	"Richard_Nixon_3.txt": {
+		"address_number": "Third",
+		"title": "Richard Nixon's Third State of the Union Address",
+		"author_name": "Richard Nixon",
+		"month": "January",
+		"president_name": "Richard Nixon",
+		"year": "1972",
+		"day": "20"
+	},
+},
+	"Richard_Nixon_4.txt": {
+		"address_number": "Fourth",
+		"title": "Richard Nixon's Fourth State of the Union Address",
+		"author_name": "Richard Nixon",
+		"month": "February",
+		"president_name": "Richard Nixon",
+		"year": "1973",
+		"day": "2"
+	},
+},
+	"Richard_Nixon_5.txt": {
+		"address_number": "Fifth",
+		"title": "Richard Nixon's Fifth State of the Union Address",
+		"author_name": "Richard Nixon",
+		"month": "January",
+		"president_name": "Richard Nixon",
+		"year": "1974",
+		"day": "30"
+	},
+},
+	"Gerald_Ford_1.txt": {
+		"address_number": "First",
+		"title": "Gerald Ford's First State of the Union Address",
+		"author_name": "Gerald Ford",
+		"month": "January",
+		"president_name": "Gerald Ford",
+		"year": "1975",
+		"day": "15"
+	},
+},
+	"Gerald_Ford_2.txt": {
+		"address_number": "Second",
+		"title": "Gerald Ford's Second State of the Union Address",
+		"author_name": "Gerald Ford",
+		"month": "January",
+		"president_name": "Gerald Ford",
+		"year": "1976",
+		"day": "19"
+	},
+},
+	"Gerald_Ford_3.txt": {
+		"address_number": "Third",
+		"title": "Gerald Ford's Third State of the Union Address",
+		"author_name": "Gerald Ford",
+		"month": "January",
+		"president_name": "Gerald Ford",
+		"year": "1977",
+		"day": "12"
+	},
+},
+	"Jimmy_Carter_1.txt": {
+		"address_number": "First",
+		"title": "Jimmy Carter's First State of the Union Address",
+		"author_name": "Jimmy Carter",
+		"month": "January",
+		"president_name": "Jimmy Carter",
+		"year": "1978",
+		"day": "19"
+	},
+},
+	"Jimmy_Carter_2.txt": {
+		"address_number": "Second",
+		"title": "Jimmy Carter's Second State of the Union Address",
+		"author_name": "Jimmy Carter",
+		"month": "January",
+		"president_name": "Jimmy Carter",
+		"year": "1979",
+		"day": "23"
+	},
+},
+	"Jimmy_Carter_3.txt": {
+		"address_number": "Third",
+		"title": "Jimmy Carter's Third State of the Union Address",
+		"author_name": "Jimmy Carter",
+		"month": "January",
+		"president_name": "Jimmy Carter",
+		"year": "1980",
+		"day": "23"
+	},
+},
+	"Jimmy_Carter_4.txt": {
+		"address_number": "Fourth",
+		"title": "Jimmy Carter's Fourth State of the Union Address",
+		"author_name": "Jimmy Carter",
+		"month": "January",
+		"president_name": "Jimmy Carter",
+		"year": "1981",
+		"day": "16"
+	},
+},
+	"Ronald_Reagan_1.txt": {
+		"address_number": "First",
+		"title": "Ronald Reagan's First State of the Union Speech",
+		"author_name": "Ronald Reagan",
+		"month": "January",
+		"president_name": "Ronald Reagan",
+		"year": "1982",
+		"day": "26"
+	},
+},
+	"Ronald_Reagan_2.txt": {
+		"address_number": "Second",
+		"title": "Ronald Reagan's Second State of the Union Speech",
+		"author_name": "Ronald Reagan",
+		"month": "January",
+		"president_name": "Ronald Reagan",
+		"year": "1983",
+		"day": "25"
+	},
+},
+	"Ronald_Reagan_3.txt": {
+		"address_number": "Third",
+		"title": "Ronald Reagan's Third State of the Union Speech",
+		"author_name": "Ronald Reagan",
+		"month": "January",
+		"president_name": "Ronald Reagan",
+		"year": "1984",
+		"day": "25"
+	},
+},
+	"Ronald_Reagan_4.txt": {
+		"address_number": "Fourth",
+		"title": "Ronald Reagan's Fourth State of the Union Speech",
+		"author_name": "Ronald Reagan",
+		"month": "February",
+		"president_name": "Ronald Reagan",
+		"year": "1985",
+		"day": "6"
+	},
+},
+	"Ronald_Reagan_5.txt": {
+		"address_number": "Fifth",
+		"title": "Ronald Reagan's Fifth State of the Union Speech",
+		"author_name": "Ronald Reagan",
+		"month": "February",
+		"president_name": "Ronald Reagan",
+		"year": "1986",
+		"day": "4"
+	},
+},
+	"Ronald_Reagan_6.txt": {
+		"address_number": "Sixth",
+		"title": "Ronald Reagan's Sixth State of the Union Address",
+		"author_name": "Ronald Reagan",
+		"month": "January",
+		"president_name": "Ronald Reagan",
+		"year": "1987",
+		"day": "27"
+	},
+},
+	"Ronald_Reagan_7.txt": {
+		"address_number": "Seventh",
+		"title": "Ronald Reagan's Seventh State of the Union Speech",
+		"author_name": "Ronald Reagan",
+		"month": "January",
+		"president_name": "Ronald Reagan",
+		"year": "1988",
+		"day": "2"
+	},
+},
+	"George_Herbert_Walker_Bush_1.txt": {
+		"address_number": "First",
+		"title": "George Herbert Walker Bush's First State of the Union Address",
+		"author_name": "George Herbert Walker Bush",
+		"month": "February",
+		"president_name": "George Herbert Walker Bush",
+		"year": "1989",
+		"day": "9"
+	},
+},
+	"George_Herbert_Walker_Bush_2.txt": {
+		"address_number": "Second",
+		"title": "George Herbert Walker Bush's Second State of the Union Address",
+		"author_name": "George Herbert Walker Bush",
+		"month": "January",
+		"president_name": "George Herbert Walker Bush",
+		"year": "1990",
+		"day": "31"
+	},
+},
+	"George_Herbert_Walker_Bush_3.txt": {
+		"address_number": "Third",
+		"title": "George Herbert Walker Bush's Third State of the Union Address",
+		"author_name": "George Herbert Walker Bush",
+		"month": "January",
+		"president_name": "George Herbert Walker Bush",
+		"year": "1991",
+		"day": "29"
+	},
+},
+	"George_Herbert_Walker_Bush_4.txt": {
+		"address_number": "Fourth",
+		"title": "George Herbert Walker Bush's Fourth State of the Union Address",
+		"author_name": "George Herbert Walker Bush",
+		"month": "January",
+		"president_name": "George Herbert Walker Bush",
+		"year": "1992",
+		"day": "28"
+	},
+},
+	"Bill_Clinton_1.txt": {
+		"address_number": "First",
+		"title": "Bill Clinton's First State of the Union Address",
+		"author_name": "William Jefferson Clinton",
+		"month": "February",
+		"president_name": "Bill Clinton",
+		"year": "1993",
+		"day": "17"
+	},
+},
+	"Bill_Clinton_2.txt": {
+		"address_number": "Second",
+		"title": "Bill Clinton's Second State of the Union Address",
+		"author_name": "William Jefferson Clinton",
+		"month": "January",
+		"president_name": "Bill Clinton",
+		"year": "1994",
+		"day": "25"
+	},
+},
+	"Bill_Clinton_3.txt": {
+		"address_number": "Third",
+		"title": "Bill Clinton's Third State of the Union Address",
+		"author_name": "William Jefferson Clinton",
+		"month": "January",
+		"president_name": "Bill Clinton",
+		"year": "1995",
+		"day": "24"
+	},
+},
+	"Bill_Clinton_4.txt": {
+		"address_number": "Fourth",
+		"title": "Bill Clinton's Fourth State of the Union Address",
+		"author_name": "William Jefferson Clinton",
+		"month": "January",
+		"president_name": "Bill Clinton",
+		"year": "1996",
+		"day": "23"
+	},
+},
+	"Bill_Clinton_5.txt": {
+		"address_number": "Fifth",
+		"title": "Bill Clinton's Fifth State of the Union Address",
+		"author_name": "William Jefferson Clinton",
+		"month": "February",
+		"president_name": "Bill Clinton",
+		"year": "1997",
+		"day": "4"
+	},
+},
+	"Bill_Clinton_6.txt": {
+		"address_number": "Sixth",
+		"title": "Bill Clinton's Sixth State of the Union Address",
+		"author_name": "William Jefferson Clinton",
+		"month": "January",
+		"president_name": "Bill Clinton",
+		"year": "1998",
+		"day": "27"
+	},
+},
+	"Bill_Clinton_7.txt": {
+		"address_number": "Seventh",
+		"title": "Bill Clinton's Seventh State of the Union Address",
+		"author_name": "William Jefferson Clinton",
+		"month": "January",
+		"president_name": "Bill Clinton",
+		"year": "1999",
+		"day": "19"
+	},
+},
+	"Bill_Clinton_8.txt": {
+		"address_number": "Eighth",
+		"title": "Bill Clinton's Eighth State of the Union Address",
+		"author_name": "William Jefferson Clinton",
+		"month": "January",
+		"president_name": "Bill Clinton",
+		"year": "2000",
+		"day": "27"
+	},
+},
+	"George_W._Bush_1.txt": {
+		"address_number": "First",
+		"title": "George W. Bush's First State of the Union Address",
+		"author_name": "George W. Bush",
+		"month": "February",
+		"president_name": "George W. Bush",
+		"year": "2001",
+		"day": "27"
+	},
+},
+	"George_W._Bush_2.txt": {
+		"address_number": "Second",
+		"title": "George W. Bush's Second State of the Union Address",
+		"author_name": "George W. Bush",
+		"month": "January",
+		"president_name": "George W. Bush",
+		"year": "2002",
+		"day": "29"
+	},
+},
+	"George_W._Bush_3.txt": {
+		"address_number": "Third",
+		"title": "George W. Bush's Third State of the Union Address",
+		"author_name": "George W. Bush",
+		"month": "January",
+		"president_name": "George W. Bush",
+		"year": "2003",
+		"day": "28"
+	},
+},
+	"George_W._Bush_4.txt": {
+		"address_number": "Fourth",
+		"title": "George W. Bush's Fourth State of the Union Address",
+		"author_name": "George W. Bush",
+		"month": "January",
+		"president_name": "George W. Bush",
+		"year": "2004",
+		"day": "20"
+	},
+},
+	"George_W._Bush_5.txt": {
+		"address_number": "Fifth",
+		"title": "George W. Bush's Fifth State of the Union Address",
+		"author_name": "George W. Bush",
+		"month": "February",
+		"president_name": "George W. Bush",
+		"year": "2005",
+		"day": "2"
+	},
+},
+	"George_W._Bush_6.txt": {
+		"address_number": "Sixth",
+		"title": "George W. Bush's Sixth State of the Union Address",
+		"author_name": "George W. Bush",
+		"month": "January",
+		"president_name": "George W. Bush",
+		"year": "2006",
+		"day": "31"
+	},
+},
+	"George_W._Bush_7.txt": {
+		"address_number": "Seventh",
+		"title": "George W. Bush's Seventh State of the Union Address",
+		"author_name": "George W. Bush",
+		"month": "January",
+		"president_name": "George W. Bush",
+		"year": "2007",
+		"day": "23"
+	},
+},
+	"George_W._Bush_8.txt": {
+		"address_number": "Eighth",
+		"title": "George W. Bush's Eighth State of the Union Address",
+		"author_name": "George W. Bush",
+		"month": "January",
+		"president_name": "George W. Bush",
+		"year": "2008",
+		"day": "28"
+	},
+},
+	"Barack_Obama_1.txt": {
+		"address_number": "First",
+		"title": "Barack Obama's First State of the Union Address",
+		"author_name": "Barack Obama",
+		"month": "February",
+		"president_name": "Barack Obama",
+		"year": "2009",
+		"day": "24"
+	},
+},
+	"Barack_Obama_2.txt": {
+		"address_number": "Second",
+		"title": "Barack Obama's Second State of the Union Address",
+		"author_name": "Barack Obama",
+		"month": "January",
+		"president_name": "Barack Obama",
+		"year": "2010",
+		"day": "27"
+	},
+}
+]
